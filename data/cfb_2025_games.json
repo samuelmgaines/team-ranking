@@ -1,0 +1,4914 @@
+[
+  {
+    "winner": "Iowa State",
+    "loser": "Kansas State"
+  },
+  {
+    "winner": "Nicholls",
+    "loser": "Incarnate Word"
+  },
+  {
+    "winner": "UNLV",
+    "loser": "Idaho State"
+  },
+  {
+    "winner": "Tarleton State",
+    "loser": "Portland State"
+  },
+  {
+    "winner": "Kansas",
+    "loser": "Fresno State"
+  },
+  {
+    "winner": "Western Kentucky",
+    "loser": "Sam Houston"
+  },
+  {
+    "winner": "Hawai'i",
+    "loser": "Stanford"
+  },
+  {
+    "winner": "North Carolina Central",
+    "loser": "Southern"
+  },
+  {
+    "winner": "South Florida",
+    "loser": "Boise State"
+  },
+  {
+    "winner": "Rutgers",
+    "loser": "Ohio"
+  },
+  {
+    "winner": "Bowling Green",
+    "loser": "Lafayette"
+  },
+  {
+    "winner": "Youngstown State",
+    "loser": "Mercyhurst"
+  },
+  {
+    "winner": "St. Thomas (MN)",
+    "loser": "Lindenwood"
+  },
+  {
+    "winner": "UCF",
+    "loser": "Jacksonville State"
+  },
+  {
+    "winner": "UL Monroe",
+    "loser": "St. Francis (PA)"
+  },
+  {
+    "winner": "Delaware",
+    "loser": "Delaware State"
+  },
+  {
+    "winner": "Towson",
+    "loser": "Norfolk State"
+  },
+  {
+    "winner": "Wyoming",
+    "loser": "Akron"
+  },
+  {
+    "winner": "NC State",
+    "loser": "East Carolina"
+  },
+  {
+    "winner": "Eastern Illinois",
+    "loser": "Dayton"
+  },
+  {
+    "winner": "Missouri",
+    "loser": "Central Arkansas"
+  },
+  {
+    "winner": "Duke",
+    "loser": "Elon"
+  },
+  {
+    "winner": "Oklahoma State",
+    "loser": "UT Martin"
+  },
+  {
+    "winner": "West Georgia",
+    "loser": "Samford"
+  },
+  {
+    "winner": "Houston",
+    "loser": "Stephen F. Austin"
+  },
+  {
+    "winner": "Minnesota",
+    "loser": "Buffalo"
+  },
+  {
+    "winner": "Northwestern State",
+    "loser": "Alcorn State"
+  },
+  {
+    "winner": "UAB",
+    "loser": "Alabama State"
+  },
+  {
+    "winner": "Nebraska",
+    "loser": "Cincinnati"
+  },
+  {
+    "winner": "Wisconsin",
+    "loser": "Miami (OH)"
+  },
+  {
+    "winner": "San Diego State",
+    "loser": "Stony Brook"
+  },
+  {
+    "winner": "Tarleton State",
+    "loser": "Army"
+  },
+  {
+    "winner": "Rhode Island",
+    "loser": "Campbell"
+  },
+  {
+    "winner": "App State",
+    "loser": "Charlotte"
+  },
+  {
+    "winner": "Wake Forest",
+    "loser": "Kennesaw State"
+  },
+  {
+    "winner": "Marist",
+    "loser": "New Haven"
+  },
+  {
+    "winner": "Michigan State",
+    "loser": "Western Michigan"
+  },
+  {
+    "winner": "Florida International",
+    "loser": "Bethune-Cookman"
+  },
+  {
+    "winner": "Monmouth",
+    "loser": "Colgate"
+  },
+  {
+    "winner": "Kansas",
+    "loser": "Wagner"
+  },
+  {
+    "winner": "Illinois",
+    "loser": "Western Illinois"
+  },
+  {
+    "winner": "Auburn",
+    "loser": "Baylor"
+  },
+  {
+    "winner": "Georgia Tech",
+    "loser": "Colorado"
+  },
+  {
+    "winner": "UNLV",
+    "loser": "Sam Houston"
+  },
+  {
+    "winner": "Central Michigan",
+    "loser": "San José State"
+  },
+  {
+    "winner": "Purdue",
+    "loser": "Ball State"
+  },
+  {
+    "winner": "Mississippi State",
+    "loser": "Southern Miss"
+  },
+  {
+    "winner": "Kent State",
+    "loser": "Merrimack"
+  },
+  {
+    "winner": "North Dakota State",
+    "loser": "The Citadel"
+  },
+  {
+    "winner": "Maryland",
+    "loser": "Florida Atlantic"
+  },
+  {
+    "winner": "Lehigh",
+    "loser": "Richmond"
+  },
+  {
+    "winner": "Pittsburgh",
+    "loser": "Duquesne"
+  },
+  {
+    "winner": "Tennessee",
+    "loser": "Syracuse"
+  },
+  {
+    "winner": "Ohio State",
+    "loser": "Texas"
+  },
+  {
+    "winner": "Tulane",
+    "loser": "Northwestern"
+  },
+  {
+    "winner": "Navy",
+    "loser": "VMI"
+  },
+  {
+    "winner": "Kentucky",
+    "loser": "Toledo"
+  },
+  {
+    "winner": "Georgetown",
+    "loser": "Davidson"
+  },
+  {
+    "winner": "Northern Iowa",
+    "loser": "Butler"
+  },
+  {
+    "winner": "Boston College",
+    "loser": "Fordham"
+  },
+  {
+    "winner": "West Virginia",
+    "loser": "Robert Morris"
+  },
+  {
+    "winner": "UConn",
+    "loser": "Central Connecticut"
+  },
+  {
+    "winner": "Furman",
+    "loser": "William & Mary"
+  },
+  {
+    "winner": "Sacred Heart",
+    "loser": "Stonehill"
+  },
+  {
+    "winner": "Indiana",
+    "loser": "Old Dominion"
+  },
+  {
+    "winner": "Jackson State",
+    "loser": "Hampton"
+  },
+  {
+    "winner": "Louisville",
+    "loser": "Eastern Kentucky"
+  },
+  {
+    "winner": "Georgia",
+    "loser": "Marshall"
+  },
+  {
+    "winner": "Florida State",
+    "loser": "Alabama"
+  },
+  {
+    "winner": "Northern Illinois",
+    "loser": "Holy Cross"
+  },
+  {
+    "winner": "Temple",
+    "loser": "Massachusetts"
+  },
+  {
+    "winner": "Air Force",
+    "loser": "Bucknell"
+  },
+  {
+    "winner": "Penn State",
+    "loser": "Nevada"
+  },
+  {
+    "winner": "Iowa State",
+    "loser": "South Dakota"
+  },
+  {
+    "winner": "Liberty",
+    "loser": "Maine"
+  },
+  {
+    "winner": "Oregon",
+    "loser": "Montana State"
+  },
+  {
+    "winner": "Howard",
+    "loser": "Florida A&M"
+  },
+  {
+    "winner": "Arkansas",
+    "loser": "Alabama A&M"
+  },
+  {
+    "winner": "Memphis",
+    "loser": "Chattanooga"
+  },
+  {
+    "winner": "Tennessee State",
+    "loser": "North Carolina A&T"
+  },
+  {
+    "winner": "Southern",
+    "loser": "Mississippi Valley State"
+  },
+  {
+    "winner": "East Tennessee State",
+    "loser": "Murray State"
+  },
+  {
+    "winner": "Presbyterian",
+    "loser": "Mercer"
+  },
+  {
+    "winner": "South Carolina State",
+    "loser": "Wofford"
+  },
+  {
+    "winner": "New Hampshire",
+    "loser": "North Carolina Central"
+  },
+  {
+    "winner": "Gardner-Webb",
+    "loser": "Western Carolina"
+  },
+  {
+    "winner": "James Madison",
+    "loser": "Weber State"
+  },
+  {
+    "winner": "Iowa",
+    "loser": "UAlbany"
+  },
+  {
+    "winner": "Oklahoma",
+    "loser": "Illinois State"
+  },
+  {
+    "winner": "Virginia",
+    "loser": "Coastal Carolina"
+  },
+  {
+    "winner": "Arkansas State",
+    "loser": "Southeast Missouri State"
+  },
+  {
+    "winner": "Kansas State",
+    "loser": "North Dakota"
+  },
+  {
+    "winner": "Troy",
+    "loser": "Nicholls"
+  },
+  {
+    "winner": "Florida",
+    "loser": "Long Island University"
+  },
+  {
+    "winner": "Texas A&M",
+    "loser": "UTSA"
+  },
+  {
+    "winner": "Austin Peay",
+    "loser": "Middle Tennessee"
+  },
+  {
+    "winner": "South Alabama",
+    "loser": "Morgan State"
+  },
+  {
+    "winner": "South Dakota State",
+    "loser": "Sacramento State"
+  },
+  {
+    "winner": "Incarnate Word",
+    "loser": "Eastern Washington"
+  },
+  {
+    "winner": "Vanderbilt",
+    "loser": "Charleston Southern"
+  },
+  {
+    "winner": "Western Kentucky",
+    "loser": "North Alabama"
+  },
+  {
+    "winner": "LSU",
+    "loser": "Clemson"
+  },
+  {
+    "winner": "Michigan",
+    "loser": "New Mexico"
+  },
+  {
+    "winner": "Utah State",
+    "loser": "UTEP"
+  },
+  {
+    "winner": "Louisiana Tech",
+    "loser": "SE Louisiana"
+  },
+  {
+    "winner": "Texas Tech",
+    "loser": "Arkansas-Pine Bluff"
+  },
+  {
+    "winner": "USC",
+    "loser": "Missouri State"
+  },
+  {
+    "winner": "Ole Miss",
+    "loser": "Georgia State"
+  },
+  {
+    "winner": "BYU",
+    "loser": "Portland State"
+  },
+  {
+    "winner": "Cal Poly",
+    "loser": "San Diego"
+  },
+  {
+    "winner": "Rice",
+    "loser": "Louisiana"
+  },
+  {
+    "winner": "Texas State",
+    "loser": "Eastern Michigan"
+  },
+  {
+    "winner": "Tulsa",
+    "loser": "Abilene Christian"
+  },
+  {
+    "winner": "North Texas",
+    "loser": "Lamar"
+  },
+  {
+    "winner": "Prairie View A&M",
+    "loser": "Texas Southern"
+  },
+  {
+    "winner": "Southern Utah",
+    "loser": "Idaho State"
+  },
+  {
+    "winner": "New Mexico State",
+    "loser": "Bryant"
+  },
+  {
+    "winner": "SMU",
+    "loser": "East Texas A&M"
+  },
+  {
+    "winner": "Fresno State",
+    "loser": "Georgia Southern"
+  },
+  {
+    "winner": "UC Davis",
+    "loser": "Utah Tech"
+  },
+  {
+    "winner": "Washington State",
+    "loser": "Idaho"
+  },
+  {
+    "winner": "Arizona State",
+    "loser": "Northern Arizona"
+  },
+  {
+    "winner": "Arizona",
+    "loser": "Hawai'i"
+  },
+  {
+    "winner": "California",
+    "loser": "Oregon State"
+  },
+  {
+    "winner": "Utah",
+    "loser": "UCLA"
+  },
+  {
+    "winner": "Washington",
+    "loser": "Colorado State"
+  },
+  {
+    "winner": "South Carolina",
+    "loser": "Virginia Tech"
+  },
+  {
+    "winner": "Miami",
+    "loser": "Notre Dame"
+  },
+  {
+    "winner": "TCU",
+    "loser": "North Carolina"
+  },
+  {
+    "winner": "Louisville",
+    "loser": "James Madison"
+  },
+  {
+    "winner": "Northwestern",
+    "loser": "Western Illinois"
+  },
+  {
+    "winner": "Maryland",
+    "loser": "Northern Illinois"
+  },
+  {
+    "winner": "Boise State",
+    "loser": "Eastern Washington"
+  },
+  {
+    "winner": "Mercyhurst",
+    "loser": "New Haven"
+  },
+  {
+    "winner": "Lehigh",
+    "loser": "Sacred Heart"
+  },
+  {
+    "winner": "Syracuse",
+    "loser": "UConn"
+  },
+  {
+    "winner": "Penn State",
+    "loser": "Florida International"
+  },
+  {
+    "winner": "Minnesota",
+    "loser": "Northwestern State"
+  },
+  {
+    "winner": "Pittsburgh",
+    "loser": "Central Michigan"
+  },
+  {
+    "winner": "Baylor",
+    "loser": "SMU"
+  },
+  {
+    "winner": "Indiana",
+    "loser": "Kennesaw State"
+  },
+  {
+    "winner": "Illinois",
+    "loser": "Duke"
+  },
+  {
+    "winner": "Florida State",
+    "loser": "East Texas A&M"
+  },
+  {
+    "winner": "Jacksonville State",
+    "loser": "Liberty"
+  },
+  {
+    "winner": "Iowa State",
+    "loser": "Iowa"
+  },
+  {
+    "winner": "Texas Tech",
+    "loser": "Kent State"
+  },
+  {
+    "winner": "NC State",
+    "loser": "Virginia"
+  },
+  {
+    "winner": "Texas",
+    "loser": "San José State"
+  },
+  {
+    "winner": "Texas A&M",
+    "loser": "Utah State"
+  },
+  {
+    "winner": "Lafayette",
+    "loser": "Stonehill"
+  },
+  {
+    "winner": "Bucknell",
+    "loser": "Marist"
+  },
+  {
+    "winner": "Tennessee Tech",
+    "loser": "Chattanooga"
+  },
+  {
+    "winner": "Indiana State",
+    "loser": "Eastern Illinois"
+  },
+  {
+    "winner": "Georgetown",
+    "loser": "Wagner"
+  },
+  {
+    "winner": "Delaware State",
+    "loser": "UAlbany"
+  },
+  {
+    "winner": "Temple",
+    "loser": "Howard"
+  },
+  {
+    "winner": "Presbyterian",
+    "loser": "Furman"
+  },
+  {
+    "winner": "Wake Forest",
+    "loser": "Western Carolina"
+  },
+  {
+    "winner": "Youngstown State",
+    "loser": "Robert Morris"
+  },
+  {
+    "winner": "North Dakota State",
+    "loser": "Tennessee State"
+  },
+  {
+    "winner": "New Mexico",
+    "loser": "Idaho State"
+  },
+  {
+    "winner": "The Citadel",
+    "loser": "Samford"
+  },
+  {
+    "winner": "Georgia",
+    "loser": "Austin Peay"
+  },
+  {
+    "winner": "Buffalo",
+    "loser": "St. Francis (PA)"
+  },
+  {
+    "winner": "Cincinnati",
+    "loser": "Bowling Green"
+  },
+  {
+    "winner": "Colorado",
+    "loser": "Delaware"
+  },
+  {
+    "winner": "Ole Miss",
+    "loser": "Kentucky"
+  },
+  {
+    "winner": "Rutgers",
+    "loser": "Miami (OH)"
+  },
+  {
+    "winner": "Ohio State",
+    "loser": "Grambling"
+  },
+  {
+    "winner": "Fresno State",
+    "loser": "Oregon State"
+  },
+  {
+    "winner": "Georgia Tech",
+    "loser": "Gardner-Webb"
+  },
+  {
+    "winner": "Clemson",
+    "loser": "Troy"
+  },
+  {
+    "winner": "Missouri",
+    "loser": "Kansas"
+  },
+  {
+    "winner": "Oregon",
+    "loser": "Oklahoma State"
+  },
+  {
+    "winner": "North Texas",
+    "loser": "Western Michigan"
+  },
+  {
+    "winner": "Texas State",
+    "loser": "UTSA"
+  },
+  {
+    "winner": "Bryant",
+    "loser": "Massachusetts"
+  },
+  {
+    "winner": "Tennessee",
+    "loser": "East Tennessee State"
+  },
+  {
+    "winner": "App State",
+    "loser": "Lindenwood"
+  },
+  {
+    "winner": "Navy",
+    "loser": "UAB"
+  },
+  {
+    "winner": "Wyoming",
+    "loser": "Northern Iowa"
+  },
+  {
+    "winner": "Ohio",
+    "loser": "West Virginia"
+  },
+  {
+    "winner": "Idaho",
+    "loser": "St. Thomas (MN)"
+  },
+  {
+    "winner": "Wisconsin",
+    "loser": "Middle Tennessee"
+  },
+  {
+    "winner": "South Florida",
+    "loser": "Florida"
+  },
+  {
+    "winner": "Southern Miss",
+    "loser": "Jackson State"
+  },
+  {
+    "winner": "Nevada",
+    "loser": "Sacramento State"
+  },
+  {
+    "winner": "Northern Arizona",
+    "loser": "Utah Tech"
+  },
+  {
+    "winner": "Arkansas",
+    "loser": "Arkansas State"
+  },
+  {
+    "winner": "Villanova",
+    "loser": "Colgate"
+  },
+  {
+    "winner": "William & Mary",
+    "loser": "Maine"
+  },
+  {
+    "winner": "East Carolina",
+    "loser": "Campbell"
+  },
+  {
+    "winner": "New Hampshire",
+    "loser": "Holy Cross"
+  },
+  {
+    "winner": "Rhode Island",
+    "loser": "Stony Brook"
+  },
+  {
+    "winner": "Eastern Kentucky",
+    "loser": "Houston Christian"
+  },
+  {
+    "winner": "Utah",
+    "loser": "Cal Poly"
+  },
+  {
+    "winner": "California",
+    "loser": "Texas Southern"
+  },
+  {
+    "winner": "Old Dominion",
+    "loser": "North Carolina Central"
+  },
+  {
+    "winner": "Monmouth",
+    "loser": "Fordham"
+  },
+  {
+    "winner": "Richmond",
+    "loser": "Wofford"
+  },
+  {
+    "winner": "Missouri State",
+    "loser": "Marshall"
+  },
+  {
+    "winner": "Florida Atlantic",
+    "loser": "Florida A&M"
+  },
+  {
+    "winner": "Elon",
+    "loser": "Davidson"
+  },
+  {
+    "winner": "Towson",
+    "loser": "Morgan State"
+  },
+  {
+    "winner": "Colorado State",
+    "loser": "Northern Colorado"
+  },
+  {
+    "winner": "Toledo",
+    "loser": "Western Kentucky"
+  },
+  {
+    "winner": "North Carolina",
+    "loser": "Charlotte"
+  },
+  {
+    "winner": "Miami",
+    "loser": "Bethune-Cookman"
+  },
+  {
+    "winner": "North Dakota",
+    "loser": "Portland State"
+  },
+  {
+    "winner": "Illinois State",
+    "loser": "Morehead State"
+  },
+  {
+    "winner": "Tulane",
+    "loser": "South Alabama"
+  },
+  {
+    "winner": "Alabama State",
+    "loser": "Southern"
+  },
+  {
+    "winner": "UT Rio Grande Valley",
+    "loser": "Prairie View A&M"
+  },
+  {
+    "winner": "Southeast Missouri State",
+    "loser": "North Alabama"
+  },
+  {
+    "winner": "Houston",
+    "loser": "Rice"
+  },
+  {
+    "winner": "Central Arkansas",
+    "loser": "Arkansas-Pine Bluff"
+  },
+  {
+    "winner": "Long Island University",
+    "loser": "Eastern Michigan"
+  },
+  {
+    "winner": "Lamar",
+    "loser": "South Dakota"
+  },
+  {
+    "winner": "West Georgia",
+    "loser": "Nicholls"
+  },
+  {
+    "winner": "Alabama A&M",
+    "loser": "Alcorn State"
+  },
+  {
+    "winner": "Tarleton State",
+    "loser": "Mississippi Valley State"
+  },
+  {
+    "winner": "South Carolina",
+    "loser": "South Carolina State"
+  },
+  {
+    "winner": "UCF",
+    "loser": "North Carolina A&T"
+  },
+  {
+    "winner": "Army",
+    "loser": "Kansas State"
+  },
+  {
+    "winner": "Memphis",
+    "loser": "Georgia State"
+  },
+  {
+    "winner": "SE Louisiana",
+    "loser": "Murray State"
+  },
+  {
+    "winner": "Vanderbilt",
+    "loser": "Virginia Tech"
+  },
+  {
+    "winner": "Coastal Carolina",
+    "loser": "Charleston Southern"
+  },
+  {
+    "winner": "USC",
+    "loser": "Georgia Southern"
+  },
+  {
+    "winner": "Nebraska",
+    "loser": "Akron"
+  },
+  {
+    "winner": "Oklahoma",
+    "loser": "Michigan"
+  },
+  {
+    "winner": "LSU",
+    "loser": "Louisiana Tech"
+  },
+  {
+    "winner": "Auburn",
+    "loser": "Ball State"
+  },
+  {
+    "winner": "Mississippi State",
+    "loser": "Arizona State"
+  },
+  {
+    "winner": "Michigan State",
+    "loser": "Boston College"
+  },
+  {
+    "winner": "Purdue",
+    "loser": "Southern Illinois"
+  },
+  {
+    "winner": "Alabama",
+    "loser": "UL Monroe"
+  },
+  {
+    "winner": "Louisiana",
+    "loser": "McNeese"
+  },
+  {
+    "winner": "South Dakota State",
+    "loser": "Montana State"
+  },
+  {
+    "winner": "Abilene Christian",
+    "loser": "Stephen F. Austin"
+  },
+  {
+    "winner": "UNLV",
+    "loser": "UCLA"
+  },
+  {
+    "winner": "San Diego",
+    "loser": "Southern Utah"
+  },
+  {
+    "winner": "UTEP",
+    "loser": "UT Martin"
+  },
+  {
+    "winner": "New Mexico State",
+    "loser": "Tulsa"
+  },
+  {
+    "winner": "Arizona",
+    "loser": "Weber State"
+  },
+  {
+    "winner": "Washington State",
+    "loser": "San Diego State"
+  },
+  {
+    "winner": "BYU",
+    "loser": "Stanford"
+  },
+  {
+    "winner": "Washington",
+    "loser": "UC Davis"
+  },
+  {
+    "winner": "Hawai'i",
+    "loser": "Sam Houston"
+  },
+  {
+    "winner": "NC State",
+    "loser": "Wake Forest"
+  },
+  {
+    "winner": "Indiana",
+    "loser": "Indiana State"
+  },
+  {
+    "winner": "Syracuse",
+    "loser": "Colgate"
+  },
+  {
+    "winner": "Houston",
+    "loser": "Colorado"
+  },
+  {
+    "winner": "Arizona",
+    "loser": "Kansas State"
+  },
+  {
+    "winner": "New Mexico",
+    "loser": "UCLA"
+  },
+  {
+    "winner": "Nebraska",
+    "loser": "Houston Christian"
+  },
+  {
+    "winner": "Oklahoma",
+    "loser": "Temple"
+  },
+  {
+    "winner": "Georgia Tech",
+    "loser": "Clemson"
+  },
+  {
+    "winner": "Baylor",
+    "loser": "Samford"
+  },
+  {
+    "winner": "Central Connecticut",
+    "loser": "St. Francis (PA)"
+  },
+  {
+    "winner": "Michigan",
+    "loser": "Central Michigan"
+  },
+  {
+    "winner": "Alabama",
+    "loser": "Wisconsin"
+  },
+  {
+    "winner": "Buffalo",
+    "loser": "Kent State"
+  },
+  {
+    "winner": "Maryland",
+    "loser": "Towson"
+  },
+  {
+    "winner": "Oregon",
+    "loser": "Northwestern"
+  },
+  {
+    "winner": "Lehigh",
+    "loser": "Duquesne"
+  },
+  {
+    "winner": "Sacred Heart",
+    "loser": "Long Island University"
+  },
+  {
+    "winner": "Memphis",
+    "loser": "Troy"
+  },
+  {
+    "winner": "Virginia",
+    "loser": "William & Mary"
+  },
+  {
+    "winner": "Auburn",
+    "loser": "South Alabama"
+  },
+  {
+    "winner": "Lafayette",
+    "loser": "Georgetown"
+  },
+  {
+    "winner": "Tennessee Tech",
+    "loser": "Davidson"
+  },
+  {
+    "winner": "Marist",
+    "loser": "Wagner"
+  },
+  {
+    "winner": "Missouri",
+    "loser": "Louisiana"
+  },
+  {
+    "winner": "South Dakota",
+    "loser": "Northern Colorado"
+  },
+  {
+    "winner": "Ball State",
+    "loser": "New Hampshire"
+  },
+  {
+    "winner": "Rhode Island",
+    "loser": "Holy Cross"
+  },
+  {
+    "winner": "Elon",
+    "loser": "Western Carolina"
+  },
+  {
+    "winner": "Delaware",
+    "loser": "UConn"
+  },
+  {
+    "winner": "Illinois State",
+    "loser": "Eastern Illinois"
+  },
+  {
+    "winner": "Montana State",
+    "loser": "San Diego"
+  },
+  {
+    "winner": "Montana",
+    "loser": "North Dakota"
+  },
+  {
+    "winner": "North Carolina",
+    "loser": "Richmond"
+  },
+  {
+    "winner": "Rutgers",
+    "loser": "Norfolk State"
+  },
+  {
+    "winner": "North Texas",
+    "loser": "Washington State"
+  },
+  {
+    "winner": "Stony Brook",
+    "loser": "Fordham"
+  },
+  {
+    "winner": "UTSA",
+    "loser": "Incarnate Word"
+  },
+  {
+    "winner": "North Dakota State",
+    "loser": "Southeast Missouri State"
+  },
+  {
+    "winner": "Cincinnati",
+    "loser": "Northwestern State"
+  },
+  {
+    "winner": "Penn State",
+    "loser": "Villanova"
+  },
+  {
+    "winner": "Texas Tech",
+    "loser": "Oregon State"
+  },
+  {
+    "winner": "Toledo",
+    "loser": "Morgan State"
+  },
+  {
+    "winner": "West Virginia",
+    "loser": "Pittsburgh"
+  },
+  {
+    "winner": "USC",
+    "loser": "Purdue"
+  },
+  {
+    "winner": "SMU",
+    "loser": "Missouri State"
+  },
+  {
+    "winner": "Georgia",
+    "loser": "Tennessee"
+  },
+  {
+    "winner": "Furman",
+    "loser": "Campbell"
+  },
+  {
+    "winner": "Bucknell",
+    "loser": "VMI"
+  },
+  {
+    "winner": "Michigan State",
+    "loser": "Youngstown State"
+  },
+  {
+    "winner": "Lindenwood",
+    "loser": "Charleston Southern"
+  },
+  {
+    "winner": "Idaho",
+    "loser": "Utah Tech"
+  },
+  {
+    "winner": "Iowa State",
+    "loser": "Arkansas State"
+  },
+  {
+    "winner": "Texas",
+    "loser": "UTEP"
+  },
+  {
+    "winner": "Alabama A&M",
+    "loser": "Tennessee State"
+  },
+  {
+    "winner": "Miami",
+    "loser": "South Florida"
+  },
+  {
+    "winner": "Northern Iowa",
+    "loser": "Eastern Washington"
+  },
+  {
+    "winner": "Middle Tennessee",
+    "loser": "Nevada"
+  },
+  {
+    "winner": "Bowling Green",
+    "loser": "Liberty"
+  },
+  {
+    "winner": "Stonehill",
+    "loser": "Maine"
+  },
+  {
+    "winner": "Mercer",
+    "loser": "Wofford"
+  },
+  {
+    "winner": "West Georgia",
+    "loser": "East Tennessee State"
+  },
+  {
+    "winner": "South Carolina State",
+    "loser": "Bethune-Cookman"
+  },
+  {
+    "winner": "Marshall",
+    "loser": "Eastern Kentucky"
+  },
+  {
+    "winner": "Florida International",
+    "loser": "Florida Atlantic"
+  },
+  {
+    "winner": "Charlotte",
+    "loser": "Monmouth"
+  },
+  {
+    "winner": "Mississippi State",
+    "loser": "Alcorn State"
+  },
+  {
+    "winner": "Kennesaw State",
+    "loser": "Merrimack"
+  },
+  {
+    "winner": "Chattanooga",
+    "loser": "Stetson"
+  },
+  {
+    "winner": "Gardner-Webb",
+    "loser": "The Citadel"
+  },
+  {
+    "winner": "Weber State",
+    "loser": "McNeese"
+  },
+  {
+    "winner": "Rice",
+    "loser": "Prairie View A&M"
+  },
+  {
+    "winner": "Tarleton State",
+    "loser": "Central Arkansas"
+  },
+  {
+    "winner": "Georgia Southern",
+    "loser": "Jacksonville State"
+  },
+  {
+    "winner": "Southern Miss",
+    "loser": "App State"
+  },
+  {
+    "winner": "Ohio State",
+    "loser": "Ohio"
+  },
+  {
+    "winner": "North Carolina A&T",
+    "loser": "Hampton"
+  },
+  {
+    "winner": "Lamar",
+    "loser": "Texas Southern"
+  },
+  {
+    "winner": "Illinois",
+    "loser": "Western Michigan"
+  },
+  {
+    "winner": "Western Illinois",
+    "loser": "Valparaiso"
+  },
+  {
+    "winner": "Georgia State",
+    "loser": "Murray State"
+  },
+  {
+    "winner": "Ole Miss",
+    "loser": "Arkansas"
+  },
+  {
+    "winner": "Southern Illinois",
+    "loser": "UT Martin"
+  },
+  {
+    "winner": "SE Louisiana",
+    "loser": "Mississippi Valley State"
+  },
+  {
+    "winner": "Austin Peay",
+    "loser": "Morehead State"
+  },
+  {
+    "winner": "South Dakota State",
+    "loser": "Drake"
+  },
+  {
+    "winner": "Old Dominion",
+    "loser": "Virginia Tech"
+  },
+  {
+    "winner": "New Haven",
+    "loser": "UAlbany"
+  },
+  {
+    "winner": "Texas A&M",
+    "loser": "Notre Dame"
+  },
+  {
+    "winner": "Kentucky",
+    "loser": "Eastern Michigan"
+  },
+  {
+    "winner": "Louisiana Tech",
+    "loser": "New Mexico State"
+  },
+  {
+    "winner": "LSU",
+    "loser": "Florida"
+  },
+  {
+    "winner": "Iowa",
+    "loser": "Massachusetts"
+  },
+  {
+    "winner": "East Carolina",
+    "loser": "Coastal Carolina"
+  },
+  {
+    "winner": "Vanderbilt",
+    "loser": "South Carolina"
+  },
+  {
+    "winner": "Tulane",
+    "loser": "Duke"
+  },
+  {
+    "winner": "Utah",
+    "loser": "Wyoming"
+  },
+  {
+    "winner": "Navy",
+    "loser": "Tulsa"
+  },
+  {
+    "winner": "TCU",
+    "loser": "Abilene Christian"
+  },
+  {
+    "winner": "UAB",
+    "loser": "Akron"
+  },
+  {
+    "winner": "Northern Arizona",
+    "loser": "Southern Utah"
+  },
+  {
+    "winner": "Sacramento State",
+    "loser": "Mercyhurst"
+  },
+  {
+    "winner": "Utah State",
+    "loser": "Air Force"
+  },
+  {
+    "winner": "Fresno State",
+    "loser": "Southern"
+  },
+  {
+    "winner": "Stanford",
+    "loser": "Boston College"
+  },
+  {
+    "winner": "California",
+    "loser": "Minnesota"
+  },
+  {
+    "winner": "Arizona State",
+    "loser": "Texas State"
+  },
+  {
+    "winner": "Hawai'i",
+    "loser": "Portland State"
+  },
+  {
+    "winner": "Rice",
+    "loser": "Charlotte"
+  },
+  {
+    "winner": "Lafayette",
+    "loser": "Columbia"
+  },
+  {
+    "winner": "Tulsa",
+    "loser": "Oklahoma State"
+  },
+  {
+    "winner": "Iowa",
+    "loser": "Rutgers"
+  },
+  {
+    "winner": "Syracuse",
+    "loser": "Clemson"
+  },
+  {
+    "winner": "Texas Tech",
+    "loser": "Utah"
+  },
+  {
+    "winner": "Maryland",
+    "loser": "Wisconsin"
+  },
+  {
+    "winner": "Brown",
+    "loser": "Georgetown"
+  },
+  {
+    "winner": "Yale",
+    "loser": "Holy Cross"
+  },
+  {
+    "winner": "San Diego",
+    "loser": "Princeton"
+  },
+  {
+    "winner": "Memphis",
+    "loser": "Arkansas"
+  },
+  {
+    "winner": "North Texas",
+    "loser": "Army"
+  },
+  {
+    "winner": "TCU",
+    "loser": "SMU"
+  },
+  {
+    "winner": "UNLV",
+    "loser": "Miami (OH)"
+  },
+  {
+    "winner": "Virginia Tech",
+    "loser": "Wofford"
+  },
+  {
+    "winner": "Louisville",
+    "loser": "Bowling Green"
+  },
+  {
+    "winner": "South Florida",
+    "loser": "South Carolina State"
+  },
+  {
+    "winner": "Tennessee",
+    "loser": "UAB"
+  },
+  {
+    "winner": "Illinois State",
+    "loser": "North Alabama"
+  },
+  {
+    "winner": "Central Michigan",
+    "loser": "Wagner"
+  },
+  {
+    "winner": "Harvard",
+    "loser": "Stetson"
+  },
+  {
+    "winner": "Monmouth",
+    "loser": "Villanova"
+  },
+  {
+    "winner": "Colgate",
+    "loser": "Fordham"
+  },
+  {
+    "winner": "Pennsylvania",
+    "loser": "Stonehill"
+  },
+  {
+    "winner": "Dartmouth",
+    "loser": "New Hampshire"
+  },
+  {
+    "winner": "Delaware State",
+    "loser": "St. Francis (PA)"
+  },
+  {
+    "winner": "Dayton",
+    "loser": "Robert Morris"
+  },
+  {
+    "winner": "South Dakota",
+    "loser": "Drake"
+  },
+  {
+    "winner": "Richmond",
+    "loser": "VMI"
+  },
+  {
+    "winner": "Mercer",
+    "loser": "The Citadel"
+  },
+  {
+    "winner": "Western Carolina",
+    "loser": "Samford"
+  },
+  {
+    "winner": "Montana State",
+    "loser": "Mercyhurst"
+  },
+  {
+    "winner": "Montana",
+    "loser": "Indiana State"
+  },
+  {
+    "winner": "Oregon",
+    "loser": "Oregon State"
+  },
+  {
+    "winner": "Troy",
+    "loser": "Buffalo"
+  },
+  {
+    "winner": "Eastern Michigan",
+    "loser": "Louisiana"
+  },
+  {
+    "winner": "Ohio",
+    "loser": "Gardner-Webb"
+  },
+  {
+    "winner": "Florida State",
+    "loser": "Kent State"
+  },
+  {
+    "winner": "Notre Dame",
+    "loser": "Purdue"
+  },
+  {
+    "winner": "Michigan",
+    "loser": "Nebraska"
+  },
+  {
+    "winner": "James Madison",
+    "loser": "Liberty"
+  },
+  {
+    "winner": "UCF",
+    "loser": "North Carolina"
+  },
+  {
+    "winner": "UConn",
+    "loser": "Ball State"
+  },
+  {
+    "winner": "Western Michigan",
+    "loser": "Toledo"
+  },
+  {
+    "winner": "Ole Miss",
+    "loser": "Tulane"
+  },
+  {
+    "winner": "Oklahoma",
+    "loser": "Auburn"
+  },
+  {
+    "winner": "Duke",
+    "loser": "NC State"
+  },
+  {
+    "winner": "William & Mary",
+    "loser": "Charleston Southern"
+  },
+  {
+    "winner": "North Carolina Central",
+    "loser": "North Carolina A&T"
+  },
+  {
+    "winner": "Sacred Heart",
+    "loser": "Norfolk State"
+  },
+  {
+    "winner": "Howard",
+    "loser": "Hampton"
+  },
+  {
+    "winner": "North Dakota",
+    "loser": "Valparaiso"
+  },
+  {
+    "winner": "Mississippi State",
+    "loser": "Northern Illinois"
+  },
+  {
+    "winner": "Georgia Tech",
+    "loser": "Temple"
+  },
+  {
+    "winner": "Northern Arizona",
+    "loser": "Incarnate Word"
+  },
+  {
+    "winner": "San José State",
+    "loser": "Idaho"
+  },
+  {
+    "winner": "East Tennessee State",
+    "loser": "Elon"
+  },
+  {
+    "winner": "Campbell",
+    "loser": "Bryant"
+  },
+  {
+    "winner": "West Georgia",
+    "loser": "Eastern Kentucky"
+  },
+  {
+    "winner": "Youngstown State",
+    "loser": "Towson"
+  },
+  {
+    "winner": "Kansas",
+    "loser": "West Virginia"
+  },
+  {
+    "winner": "Lehigh",
+    "loser": "Bucknell"
+  },
+  {
+    "winner": "Rhode Island",
+    "loser": "Long Island University"
+  },
+  {
+    "winner": "Kennesaw State",
+    "loser": "Arkansas State"
+  },
+  {
+    "winner": "Akron",
+    "loser": "Duquesne"
+  },
+  {
+    "winner": "Merrimack",
+    "loser": "Central Connecticut"
+  },
+  {
+    "winner": "Delaware",
+    "loser": "Florida International"
+  },
+  {
+    "winner": "Prairie View A&M",
+    "loser": "Northwestern State"
+  },
+  {
+    "winner": "Marshall",
+    "loser": "Middle Tennessee"
+  },
+  {
+    "winner": "Grambling",
+    "loser": "East Texas A&M"
+  },
+  {
+    "winner": "Jacksonville State",
+    "loser": "Murray State"
+  },
+  {
+    "winner": "Lindenwood",
+    "loser": "Stony Brook"
+  },
+  {
+    "winner": "Western Kentucky",
+    "loser": "Nevada"
+  },
+  {
+    "winner": "Georgia Southern",
+    "loser": "Maine"
+  },
+  {
+    "winner": "Tarleton State",
+    "loser": "Chattanooga"
+  },
+  {
+    "winner": "UAlbany",
+    "loser": "Cornell"
+  },
+  {
+    "winner": "Southern Illinois",
+    "loser": "Southeast Missouri State"
+  },
+  {
+    "winner": "Missouri",
+    "loser": "South Carolina"
+  },
+  {
+    "winner": "Northern Colorado",
+    "loser": "Houston Christian"
+  },
+  {
+    "winner": "Coastal Carolina",
+    "loser": "South Alabama"
+  },
+  {
+    "winner": "Eastern Washington",
+    "loser": "Western Illinois"
+  },
+  {
+    "winner": "Boise State",
+    "loser": "Air Force"
+  },
+  {
+    "winner": "Missouri State",
+    "loser": "UT Martin"
+  },
+  {
+    "winner": "Louisiana Tech",
+    "loser": "Southern Miss"
+  },
+  {
+    "winner": "Miami",
+    "loser": "Florida"
+  },
+  {
+    "winner": "Washington",
+    "loser": "Washington State"
+  },
+  {
+    "winner": "BYU",
+    "loser": "East Carolina"
+  },
+  {
+    "winner": "Arizona State",
+    "loser": "Baylor"
+  },
+  {
+    "winner": "Vanderbilt",
+    "loser": "Georgia State"
+  },
+  {
+    "winner": "Virginia",
+    "loser": "Stanford"
+  },
+  {
+    "winner": "Indiana",
+    "loser": "Illinois"
+  },
+  {
+    "winner": "LSU",
+    "loser": "SE Louisiana"
+  },
+  {
+    "winner": "Texas",
+    "loser": "Sam Houston"
+  },
+  {
+    "winner": "Abilene Christian",
+    "loser": "Austin Peay"
+  },
+  {
+    "winner": "Texas State",
+    "loser": "Nicholls"
+  },
+  {
+    "winner": "Utah Tech",
+    "loser": "Northern Iowa"
+  },
+  {
+    "winner": "Utah State",
+    "loser": "McNeese"
+  },
+  {
+    "winner": "Stephen F. Austin",
+    "loser": "Cal Poly"
+  },
+  {
+    "winner": "UL Monroe",
+    "loser": "UTEP"
+  },
+  {
+    "winner": "Weber State",
+    "loser": "Butler"
+  },
+  {
+    "winner": "Sacramento State",
+    "loser": "Central Arkansas"
+  },
+  {
+    "winner": "UTSA",
+    "loser": "Colorado State"
+  },
+  {
+    "winner": "UC Davis",
+    "loser": "Southern Utah"
+  },
+  {
+    "winner": "Colorado",
+    "loser": "Wyoming"
+  },
+  {
+    "winner": "San Diego State",
+    "loser": "California"
+  },
+  {
+    "winner": "USC",
+    "loser": "Michigan State"
+  },
+  {
+    "winner": "Fresno State",
+    "loser": "Hawai'i"
+  },
+  {
+    "winner": "East Carolina",
+    "loser": "Army"
+  },
+  {
+    "winner": "Virginia",
+    "loser": "Florida State"
+  },
+  {
+    "winner": "Arizona State",
+    "loser": "TCU"
+  },
+  {
+    "winner": "Houston",
+    "loser": "Oregon State"
+  },
+  {
+    "winner": "Dayton",
+    "loser": "Stetson"
+  },
+  {
+    "winner": "Wagner",
+    "loser": "Norfolk State"
+  },
+  {
+    "winner": "Duquesne",
+    "loser": "New Haven"
+  },
+  {
+    "winner": "Dartmouth",
+    "loser": "Central Connecticut"
+  },
+  {
+    "winner": "Duke",
+    "loser": "Syracuse"
+  },
+  {
+    "winner": "Columbia",
+    "loser": "Georgetown"
+  },
+  {
+    "winner": "Cincinnati",
+    "loser": "Kansas"
+  },
+  {
+    "winner": "Illinois",
+    "loser": "USC"
+  },
+  {
+    "winner": "Sacred Heart",
+    "loser": "Delaware State"
+  },
+  {
+    "winner": "Lehigh",
+    "loser": "Pennsylvania"
+  },
+  {
+    "winner": "Yale",
+    "loser": "Cornell"
+  },
+  {
+    "winner": "Kansas State",
+    "loser": "UCF"
+  },
+  {
+    "winner": "North Texas",
+    "loser": "South Alabama"
+  },
+  {
+    "winner": "Minnesota",
+    "loser": "Rutgers"
+  },
+  {
+    "winner": "Louisville",
+    "loser": "Pittsburgh"
+  },
+  {
+    "winner": "Ohio",
+    "loser": "Bowling Green"
+  },
+  {
+    "winner": "Georgia Tech",
+    "loser": "Wake Forest"
+  },
+  {
+    "winner": "Notre Dame",
+    "loser": "Arkansas"
+  },
+  {
+    "winner": "Vanderbilt",
+    "loser": "Utah State"
+  },
+  {
+    "winner": "Presbyterian",
+    "loser": "Morehead State"
+  },
+  {
+    "winner": "Butler",
+    "loser": "Marist"
+  },
+  {
+    "winner": "Central Michigan",
+    "loser": "Eastern Michigan"
+  },
+  {
+    "winner": "Fordham",
+    "loser": "Holy Cross"
+  },
+  {
+    "winner": "Stonehill",
+    "loser": "Long Island University"
+  },
+  {
+    "winner": "New Hampshire",
+    "loser": "UAlbany"
+  },
+  {
+    "winner": "Towson",
+    "loser": "Bryant"
+  },
+  {
+    "winner": "James Madison",
+    "loser": "Georgia Southern"
+  },
+  {
+    "winner": "North Dakota State",
+    "loser": "South Dakota"
+  },
+  {
+    "winner": "Richmond",
+    "loser": "Howard"
+  },
+  {
+    "winner": "Austin Peay",
+    "loser": "Utah Tech"
+  },
+  {
+    "winner": "Elon",
+    "loser": "Hampton"
+  },
+  {
+    "winner": "Bethune-Cookman",
+    "loser": "Alabama A&M"
+  },
+  {
+    "winner": "Idaho State",
+    "loser": "Northern Colorado"
+  },
+  {
+    "winner": "UL Monroe",
+    "loser": "Arkansas State"
+  },
+  {
+    "winner": "South Dakota State",
+    "loser": "Mercyhurst"
+  },
+  {
+    "winner": "Alabama State",
+    "loser": "Florida A&M"
+  },
+  {
+    "winner": "Stony Brook",
+    "loser": "Merrimack"
+  },
+  {
+    "winner": "San Diego State",
+    "loser": "Northern Illinois"
+  },
+  {
+    "winner": "Furman",
+    "loser": "Samford"
+  },
+  {
+    "winner": "Texas A&M",
+    "loser": "Auburn"
+  },
+  {
+    "winner": "Navy",
+    "loser": "Rice"
+  },
+  {
+    "winner": "Princeton",
+    "loser": "Lafayette"
+  },
+  {
+    "winner": "Toledo",
+    "loser": "Akron"
+  },
+  {
+    "winner": "Miami (OH)",
+    "loser": "Lindenwood"
+  },
+  {
+    "winner": "Maine",
+    "loser": "North Carolina A&T"
+  },
+  {
+    "winner": "Villanova",
+    "loser": "William & Mary"
+  },
+  {
+    "winner": "Baylor",
+    "loser": "Oklahoma State"
+  },
+  {
+    "winner": "Western Carolina",
+    "loser": "Campbell"
+  },
+  {
+    "winner": "Ohio State",
+    "loser": "Washington"
+  },
+  {
+    "winner": "California",
+    "loser": "Boston College"
+  },
+  {
+    "winner": "Indiana",
+    "loser": "Iowa"
+  },
+  {
+    "winner": "UConn",
+    "loser": "Buffalo"
+  },
+  {
+    "winner": "Northwestern",
+    "loser": "UCLA"
+  },
+  {
+    "winner": "Utah",
+    "loser": "West Virginia"
+  },
+  {
+    "winner": "Ole Miss",
+    "loser": "LSU"
+  },
+  {
+    "winner": "Tulane",
+    "loser": "Tulsa"
+  },
+  {
+    "winner": "Hawai'i",
+    "loser": "Air Force"
+  },
+  {
+    "winner": "San Diego",
+    "loser": "St. Thomas (MN)"
+  },
+  {
+    "winner": "Eastern Illinois",
+    "loser": "Western Illinois"
+  },
+  {
+    "winner": "Montana State",
+    "loser": "Eastern Washington"
+  },
+  {
+    "winner": "New Mexico",
+    "loser": "New Mexico State"
+  },
+  {
+    "winner": "Tennessee",
+    "loser": "Mississippi State"
+  },
+  {
+    "winner": "Tennessee Tech",
+    "loser": "Tennessee State"
+  },
+  {
+    "winner": "Texas Southern",
+    "loser": "Mississippi Valley State"
+  },
+  {
+    "winner": "Northern Arizona",
+    "loser": "Portland State"
+  },
+  {
+    "winner": "Mercer",
+    "loser": "East Tennessee State"
+  },
+  {
+    "winner": "Bucknell",
+    "loser": "St. Francis (PA)"
+  },
+  {
+    "winner": "The Citadel",
+    "loser": "Chattanooga"
+  },
+  {
+    "winner": "Old Dominion",
+    "loser": "Liberty"
+  },
+  {
+    "winner": "Harvard",
+    "loser": "Brown"
+  },
+  {
+    "winner": "Eastern Kentucky",
+    "loser": "Nicholls"
+  },
+  {
+    "winner": "Charleston Southern",
+    "loser": "South Carolina State"
+  },
+  {
+    "winner": "Kennesaw State",
+    "loser": "Middle Tennessee"
+  },
+  {
+    "winner": "Western Michigan",
+    "loser": "Rhode Island"
+  },
+  {
+    "winner": "Incarnate Word",
+    "loser": "Abilene Christian"
+  },
+  {
+    "winner": "Iowa State",
+    "loser": "Arizona"
+  },
+  {
+    "winner": "Arkansas-Pine Bluff",
+    "loser": "Alcorn State"
+  },
+  {
+    "winner": "Prairie View A&M",
+    "loser": "Grambling"
+  },
+  {
+    "winner": "SE Louisiana",
+    "loser": "UT Rio Grande Valley"
+  },
+  {
+    "winner": "Southern Miss",
+    "loser": "Jacksonville State"
+  },
+  {
+    "winner": "Virginia Tech",
+    "loser": "NC State"
+  },
+  {
+    "winner": "UT Martin",
+    "loser": "Southeast Missouri State"
+  },
+  {
+    "winner": "North Carolina Central",
+    "loser": "East Texas A&M"
+  },
+  {
+    "winner": "Western Kentucky",
+    "loser": "Missouri State"
+  },
+  {
+    "winner": "Jackson State",
+    "loser": "Southern"
+  },
+  {
+    "winner": "Lamar",
+    "loser": "Central Arkansas"
+  },
+  {
+    "winner": "Memphis",
+    "loser": "Florida Atlantic"
+  },
+  {
+    "winner": "Boise State",
+    "loser": "App State"
+  },
+  {
+    "winner": "Alabama",
+    "loser": "Georgia"
+  },
+  {
+    "winner": "Stanford",
+    "loser": "San José State"
+  },
+  {
+    "winner": "Washington State",
+    "loser": "Colorado State"
+  },
+  {
+    "winner": "Missouri",
+    "loser": "Massachusetts"
+  },
+  {
+    "winner": "Oregon",
+    "loser": "Penn State"
+  },
+  {
+    "winner": "South Carolina",
+    "loser": "Kentucky"
+  },
+  {
+    "winner": "Louisiana",
+    "loser": "Marshall"
+  },
+  {
+    "winner": "Stephen F. Austin",
+    "loser": "McNeese"
+  },
+  {
+    "winner": "West Georgia",
+    "loser": "Southern Utah"
+  },
+  {
+    "winner": "Cal Poly",
+    "loser": "Sacramento State"
+  },
+  {
+    "winner": "Louisiana Tech",
+    "loser": "UTEP"
+  },
+  {
+    "winner": "UC Davis",
+    "loser": "Weber State"
+  },
+  {
+    "winner": "Montana",
+    "loser": "Idaho"
+  },
+  {
+    "winner": "BYU",
+    "loser": "Colorado"
+  },
+  {
+    "winner": "New Mexico State",
+    "loser": "Sam Houston"
+  },
+  {
+    "winner": "South Florida",
+    "loser": "Charlotte"
+  },
+  {
+    "winner": "Brown",
+    "loser": "Rhode Island"
+  },
+  {
+    "winner": "Western Kentucky",
+    "loser": "Delaware"
+  },
+  {
+    "winner": "Princeton",
+    "loser": "Columbia"
+  },
+  {
+    "winner": "San José State",
+    "loser": "New Mexico"
+  },
+  {
+    "winner": "San Diego State",
+    "loser": "Colorado State"
+  },
+  {
+    "winner": "BYU",
+    "loser": "West Virginia"
+  },
+  {
+    "winner": "Michigan",
+    "loser": "Wisconsin"
+  },
+  {
+    "winner": "Pittsburgh",
+    "loser": "Boston College"
+  },
+  {
+    "winner": "Illinois",
+    "loser": "Purdue"
+  },
+  {
+    "winner": "Ball State",
+    "loser": "Ohio"
+  },
+  {
+    "winner": "Georgia",
+    "loser": "Kentucky"
+  },
+  {
+    "winner": "Clemson",
+    "loser": "North Carolina"
+  },
+  {
+    "winner": "Lehigh",
+    "loser": "Yale"
+  },
+  {
+    "winner": "Army",
+    "loser": "UAB"
+  },
+  {
+    "winner": "Cincinnati",
+    "loser": "Iowa State"
+  },
+  {
+    "winner": "Marist",
+    "loser": "San Diego"
+  },
+  {
+    "winner": "Navy",
+    "loser": "Air Force"
+  },
+  {
+    "winner": "Duquesne",
+    "loser": "Stonehill"
+  },
+  {
+    "winner": "Baylor",
+    "loser": "Kansas State"
+  },
+  {
+    "winner": "Central Connecticut",
+    "loser": "Sacred Heart"
+  },
+  {
+    "winner": "Bucknell",
+    "loser": "Richmond"
+  },
+  {
+    "winner": "Lafayette",
+    "loser": "Fordham"
+  },
+  {
+    "winner": "Stetson",
+    "loser": "Davidson"
+  },
+  {
+    "winner": "Merrimack",
+    "loser": "Robert Morris"
+  },
+  {
+    "winner": "Monmouth",
+    "loser": "Delaware State"
+  },
+  {
+    "winner": "Dayton",
+    "loser": "Morehead State"
+  },
+  {
+    "winner": "Georgetown",
+    "loser": "Morgan State"
+  },
+  {
+    "winner": "Villanova",
+    "loser": "New Hampshire"
+  },
+  {
+    "winner": "Mercyhurst",
+    "loser": "Long Island University"
+  },
+  {
+    "winner": "Temple",
+    "loser": "UTSA"
+  },
+  {
+    "winner": "Pennsylvania",
+    "loser": "Dartmouth"
+  },
+  {
+    "winner": "Tennessee Tech",
+    "loser": "Western Illinois"
+  },
+  {
+    "winner": "Wake Forest",
+    "loser": "Virginia Tech"
+  },
+  {
+    "winner": "Drake",
+    "loser": "Valparaiso"
+  },
+  {
+    "winner": "Chattanooga",
+    "loser": "VMI"
+  },
+  {
+    "winner": "Gardner-Webb",
+    "loser": "Charleston Southern"
+  },
+  {
+    "winner": "Western Carolina",
+    "loser": "Wofford"
+  },
+  {
+    "winner": "Harvard",
+    "loser": "Holy Cross"
+  },
+  {
+    "winner": "Colgate",
+    "loser": "Cornell"
+  },
+  {
+    "winner": "NC State",
+    "loser": "Campbell"
+  },
+  {
+    "winner": "Furman",
+    "loser": "East Tennessee State"
+  },
+  {
+    "winner": "Butler",
+    "loser": "St. Thomas (MN)"
+  },
+  {
+    "winner": "Lindenwood",
+    "loser": "UT Martin"
+  },
+  {
+    "winner": "Maine",
+    "loser": "Bryant"
+  },
+  {
+    "winner": "Western Michigan",
+    "loser": "Massachusetts"
+  },
+  {
+    "winner": "South Dakota",
+    "loser": "Murray State"
+  },
+  {
+    "winner": "Alabama State",
+    "loser": "Bethune-Cookman"
+  },
+  {
+    "winner": "Arizona",
+    "loser": "Oklahoma State"
+  },
+  {
+    "winner": "Eastern Illinois",
+    "loser": "Tennessee State"
+  },
+  {
+    "winner": "Abilene Christian",
+    "loser": "North Alabama"
+  },
+  {
+    "winner": "Florida",
+    "loser": "Texas"
+  },
+  {
+    "winner": "Akron",
+    "loser": "Central Michigan"
+  },
+  {
+    "winner": "Stony Brook",
+    "loser": "UAlbany"
+  },
+  {
+    "winner": "Northwestern",
+    "loser": "UL Monroe"
+  },
+  {
+    "winner": "Miami (OH)",
+    "loser": "Northern Illinois"
+  },
+  {
+    "winner": "Buffalo",
+    "loser": "Eastern Michigan"
+  },
+  {
+    "winner": "Virginia",
+    "loser": "Louisville"
+  },
+  {
+    "winner": "SMU",
+    "loser": "Syracuse"
+  },
+  {
+    "winner": "William & Mary",
+    "loser": "North Carolina A&T"
+  },
+  {
+    "winner": "James Madison",
+    "loser": "Georgia State"
+  },
+  {
+    "winner": "UCLA",
+    "loser": "Penn State"
+  },
+  {
+    "winner": "Washington",
+    "loser": "Maryland"
+  },
+  {
+    "winner": "Notre Dame",
+    "loser": "Boise State"
+  },
+  {
+    "winner": "UConn",
+    "loser": "Florida International"
+  },
+  {
+    "winner": "Alabama",
+    "loser": "Vanderbilt"
+  },
+  {
+    "winner": "App State",
+    "loser": "Oregon State"
+  },
+  {
+    "winner": "Hampton",
+    "loser": "Norfolk State"
+  },
+  {
+    "winner": "Elon",
+    "loser": "Towson"
+  },
+  {
+    "winner": "Lamar",
+    "loser": "Nicholls"
+  },
+  {
+    "winner": "Prairie View A&M",
+    "loser": "Alcorn State"
+  },
+  {
+    "winner": "Nebraska",
+    "loser": "Michigan State"
+  },
+  {
+    "winner": "Oklahoma",
+    "loser": "Kent State"
+  },
+  {
+    "winner": "Arkansas State",
+    "loser": "Texas State"
+  },
+  {
+    "winner": "Mercer",
+    "loser": "Samford"
+  },
+  {
+    "winner": "Austin Peay",
+    "loser": "West Georgia"
+  },
+  {
+    "winner": "Central Arkansas",
+    "loser": "Utah Tech"
+  },
+  {
+    "winner": "Jackson State",
+    "loser": "Alabama A&M"
+  },
+  {
+    "winner": "Montana State",
+    "loser": "Northern Arizona"
+  },
+  {
+    "winner": "North Dakota",
+    "loser": "Northern Iowa"
+  },
+  {
+    "winner": "Old Dominion",
+    "loser": "Coastal Carolina"
+  },
+  {
+    "winner": "South Dakota State",
+    "loser": "Youngstown State"
+  },
+  {
+    "winner": "Texas Southern",
+    "loser": "Arkansas-Pine Bluff"
+  },
+  {
+    "winner": "Stephen F. Austin",
+    "loser": "Incarnate Word"
+  },
+  {
+    "winner": "Texas Tech",
+    "loser": "Houston"
+  },
+  {
+    "winner": "Southern Illinois",
+    "loser": "Indiana State"
+  },
+  {
+    "winner": "East Texas A&M",
+    "loser": "Northwestern State"
+  },
+  {
+    "winner": "UNLV",
+    "loser": "Wyoming"
+  },
+  {
+    "winner": "SE Louisiana",
+    "loser": "McNeese"
+  },
+  {
+    "winner": "Eastern Washington",
+    "loser": "Portland State"
+  },
+  {
+    "winner": "Florida Atlantic",
+    "loser": "Rice"
+  },
+  {
+    "winner": "North Dakota State",
+    "loser": "Illinois State"
+  },
+  {
+    "winner": "Tarleton State",
+    "loser": "Southern Utah"
+  },
+  {
+    "winner": "Troy",
+    "loser": "South Alabama"
+  },
+  {
+    "winner": "Kansas",
+    "loser": "UCF"
+  },
+  {
+    "winner": "Miami",
+    "loser": "Florida State"
+  },
+  {
+    "winner": "Ohio State",
+    "loser": "Minnesota"
+  },
+  {
+    "winner": "TCU",
+    "loser": "Colorado"
+  },
+  {
+    "winner": "Texas A&M",
+    "loser": "Mississippi State"
+  },
+  {
+    "winner": "UT Rio Grande Valley",
+    "loser": "Houston Christian"
+  },
+  {
+    "winner": "Montana",
+    "loser": "Idaho State"
+  },
+  {
+    "winner": "Memphis",
+    "loser": "Tulsa"
+  },
+  {
+    "winner": "UC Davis",
+    "loser": "Cal Poly"
+  },
+  {
+    "winner": "Duke",
+    "loser": "California"
+  },
+  {
+    "winner": "Fresno State",
+    "loser": "Nevada"
+  },
+  {
+    "winner": "Missouri State",
+    "loser": "Middle Tennessee"
+  },
+  {
+    "winner": "Liberty",
+    "loser": "UTEP"
+  },
+  {
+    "winner": "Kennesaw State",
+    "loser": "Louisiana Tech"
+  },
+  {
+    "winner": "Tulane",
+    "loser": "East Carolina"
+  },
+  {
+    "winner": "Jacksonville State",
+    "loser": "Sam Houston"
+  },
+  {
+    "winner": "Southern Miss",
+    "loser": "Georgia Southern"
+  },
+  {
+    "winner": "Harvard",
+    "loser": "Cornell"
+  },
+  {
+    "winner": "Brown",
+    "loser": "Bryant"
+  },
+  {
+    "winner": "Pennsylvania",
+    "loser": "Marist"
+  },
+  {
+    "winner": "South Florida",
+    "loser": "North Texas"
+  },
+  {
+    "winner": "Washington",
+    "loser": "Rutgers"
+  },
+  {
+    "winner": "Colorado State",
+    "loser": "Fresno State"
+  },
+  {
+    "winner": "Lehigh",
+    "loser": "Columbia"
+  },
+  {
+    "winner": "UCLA",
+    "loser": "Michigan State"
+  },
+  {
+    "winner": "Army",
+    "loser": "Charlotte"
+  },
+  {
+    "winner": "Cincinnati",
+    "loser": "UCF"
+  },
+  {
+    "winner": "Pittsburgh",
+    "loser": "Florida State"
+  },
+  {
+    "winner": "SMU",
+    "loser": "Stanford"
+  },
+  {
+    "winner": "James Madison",
+    "loser": "Louisiana"
+  },
+  {
+    "winner": "Ohio State",
+    "loser": "Illinois"
+  },
+  {
+    "winner": "Houston",
+    "loser": "Oklahoma State"
+  },
+  {
+    "winner": "Bowling Green",
+    "loser": "Toledo"
+  },
+  {
+    "winner": "Miami (OH)",
+    "loser": "Akron"
+  },
+  {
+    "winner": "Alabama",
+    "loser": "Missouri"
+  },
+  {
+    "winner": "Mercyhurst",
+    "loser": "Wagner"
+  },
+  {
+    "winner": "Mercer",
+    "loser": "Princeton"
+  },
+  {
+    "winner": "Lafayette",
+    "loser": "Bucknell"
+  },
+  {
+    "winner": "Ole Miss",
+    "loser": "Washington State"
+  },
+  {
+    "winner": "South Dakota",
+    "loser": "Indiana State"
+  },
+  {
+    "winner": "Presbyterian",
+    "loser": "Butler"
+  },
+  {
+    "winner": "St. Thomas (MN)",
+    "loser": "Davidson"
+  },
+  {
+    "winner": "Stetson",
+    "loser": "Morehead State"
+  },
+  {
+    "winner": "Sacred Heart",
+    "loser": "Howard"
+  },
+  {
+    "winner": "Rhode Island",
+    "loser": "New Hampshire"
+  },
+  {
+    "winner": "Duquesne",
+    "loser": "St. Francis (PA)"
+  },
+  {
+    "winner": "Richmond",
+    "loser": "Colgate"
+  },
+  {
+    "winner": "Maine",
+    "loser": "Merrimack"
+  },
+  {
+    "winner": "Eastern Michigan",
+    "loser": "Northern Illinois"
+  },
+  {
+    "winner": "South Carolina State",
+    "loser": "North Carolina A&T"
+  },
+  {
+    "winner": "Dartmouth",
+    "loser": "Yale"
+  },
+  {
+    "winner": "Wofford",
+    "loser": "Norfolk State"
+  },
+  {
+    "winner": "Dayton",
+    "loser": "Valparaiso"
+  },
+  {
+    "winner": "Abilene Christian",
+    "loser": "West Georgia"
+  },
+  {
+    "winner": "Monmouth",
+    "loser": "Towson"
+  },
+  {
+    "winner": "Villanova",
+    "loser": "Elon"
+  },
+  {
+    "winner": "Campbell",
+    "loser": "Hampton"
+  },
+  {
+    "winner": "Central Connecticut",
+    "loser": "Robert Morris"
+  },
+  {
+    "winner": "Western Carolina",
+    "loser": "Furman"
+  },
+  {
+    "winner": "Kent State",
+    "loser": "Massachusetts"
+  },
+  {
+    "winner": "Montana State",
+    "loser": "Idaho State"
+  },
+  {
+    "winner": "North Carolina Central",
+    "loser": "Florida A&M"
+  },
+  {
+    "winner": "UT Martin",
+    "loser": "Western Illinois"
+  },
+  {
+    "winner": "Gardner-Webb",
+    "loser": "Eastern Illinois"
+  },
+  {
+    "winner": "Bethune-Cookman",
+    "loser": "Southern"
+  },
+  {
+    "winner": "Alabama A&M",
+    "loser": "Mississippi Valley State"
+  },
+  {
+    "winner": "South Dakota State",
+    "loser": "Northern Iowa"
+  },
+  {
+    "winner": "Georgia Tech",
+    "loser": "Virginia Tech"
+  },
+  {
+    "winner": "Colorado",
+    "loser": "Iowa State"
+  },
+  {
+    "winner": "Nebraska",
+    "loser": "Maryland"
+  },
+  {
+    "winner": "Marshall",
+    "loser": "Old Dominion"
+  },
+  {
+    "winner": "App State",
+    "loser": "Georgia State"
+  },
+  {
+    "winner": "Western Michigan",
+    "loser": "Ball State"
+  },
+  {
+    "winner": "Texas",
+    "loser": "Oklahoma"
+  },
+  {
+    "winner": "Indiana",
+    "loser": "Oregon"
+  },
+  {
+    "winner": "Wake Forest",
+    "loser": "Oregon State"
+  },
+  {
+    "winner": "Northwestern",
+    "loser": "Penn State"
+  },
+  {
+    "winner": "UNLV",
+    "loser": "Air Force"
+  },
+  {
+    "winner": "North Dakota State",
+    "loser": "Southern Illinois"
+  },
+  {
+    "winner": "East Tennessee State",
+    "loser": "VMI"
+  },
+  {
+    "winner": "Jackson State",
+    "loser": "Alabama State"
+  },
+  {
+    "winner": "Kansas State",
+    "loser": "TCU"
+  },
+  {
+    "winner": "Notre Dame",
+    "loser": "NC State"
+  },
+  {
+    "winner": "Central Arkansas",
+    "loser": "North Alabama"
+  },
+  {
+    "winner": "Montana",
+    "loser": "Cal Poly"
+  },
+  {
+    "winner": "North Dakota",
+    "loser": "Youngstown State"
+  },
+  {
+    "winner": "Tennessee Tech",
+    "loser": "Charleston Southern"
+  },
+  {
+    "winner": "Navy",
+    "loser": "Temple"
+  },
+  {
+    "winner": "Southeast Missouri State",
+    "loser": "Tennessee State"
+  },
+  {
+    "winner": "Tennessee",
+    "loser": "Arkansas"
+  },
+  {
+    "winner": "Drake",
+    "loser": "San Diego"
+  },
+  {
+    "winner": "Northern Colorado",
+    "loser": "Idaho"
+  },
+  {
+    "winner": "Florida Atlantic",
+    "loser": "UAB"
+  },
+  {
+    "winner": "Eastern Kentucky",
+    "loser": "Austin Peay"
+  },
+  {
+    "winner": "Houston Christian",
+    "loser": "Northwestern State"
+  },
+  {
+    "winner": "UC Davis",
+    "loser": "Northern Arizona"
+  },
+  {
+    "winner": "Iowa",
+    "loser": "Wisconsin"
+  },
+  {
+    "winner": "Lamar",
+    "loser": "East Texas A&M"
+  },
+  {
+    "winner": "Illinois State",
+    "loser": "Murray State"
+  },
+  {
+    "winner": "Coastal Carolina",
+    "loser": "UL Monroe"
+  },
+  {
+    "winner": "Texas A&M",
+    "loser": "Florida"
+  },
+  {
+    "winner": "Wyoming",
+    "loser": "San José State"
+  },
+  {
+    "winner": "Texas Southern",
+    "loser": "Grambling"
+  },
+  {
+    "winner": "Minnesota",
+    "loser": "Purdue"
+  },
+  {
+    "winner": "UTSA",
+    "loser": "Rice"
+  },
+  {
+    "winner": "Georgia",
+    "loser": "Auburn"
+  },
+  {
+    "winner": "USC",
+    "loser": "Michigan"
+  },
+  {
+    "winner": "Texas Tech",
+    "loser": "Kansas"
+  },
+  {
+    "winner": "Clemson",
+    "loser": "Boston College"
+  },
+  {
+    "winner": "LSU",
+    "loser": "South Carolina"
+  },
+  {
+    "winner": "Sacramento State",
+    "loser": "Weber State"
+  },
+  {
+    "winner": "Troy",
+    "loser": "Texas State"
+  },
+  {
+    "winner": "Tarleton State",
+    "loser": "Utah Tech"
+  },
+  {
+    "winner": "BYU",
+    "loser": "Arizona"
+  },
+  {
+    "winner": "Boise State",
+    "loser": "New Mexico"
+  },
+  {
+    "winner": "Utah",
+    "loser": "Arizona State"
+  },
+  {
+    "winner": "San Diego State",
+    "loser": "Nevada"
+  },
+  {
+    "winner": "Hawai'i",
+    "loser": "Utah State"
+  },
+  {
+    "winner": "Liberty",
+    "loser": "New Mexico State"
+  },
+  {
+    "winner": "Arkansas State",
+    "loser": "South Alabama"
+  },
+  {
+    "winner": "Florida International",
+    "loser": "Western Kentucky"
+  },
+  {
+    "winner": "UTEP",
+    "loser": "Sam Houston"
+  },
+  {
+    "winner": "Jacksonville State",
+    "loser": "Delaware"
+  },
+  {
+    "winner": "East Carolina",
+    "loser": "Tulsa"
+  },
+  {
+    "winner": "Louisville",
+    "loser": "Miami"
+  },
+  {
+    "winner": "Minnesota",
+    "loser": "Nebraska"
+  },
+  {
+    "winner": "Utah State",
+    "loser": "San José State"
+  },
+  {
+    "winner": "California",
+    "loser": "North Carolina"
+  },
+  {
+    "winner": "Miami (OH)",
+    "loser": "Eastern Michigan"
+  },
+  {
+    "winner": "UConn",
+    "loser": "Boston College"
+  },
+  {
+    "winner": "Houston",
+    "loser": "Arizona"
+  },
+  {
+    "winner": "Tulane",
+    "loser": "Army"
+  },
+  {
+    "winner": "Georgia Tech",
+    "loser": "Duke"
+  },
+  {
+    "winner": "Wofford",
+    "loser": "Furman"
+  },
+  {
+    "winner": "Vanderbilt",
+    "loser": "LSU"
+  },
+  {
+    "winner": "TCU",
+    "loser": "Baylor"
+  },
+  {
+    "winner": "Long Island University",
+    "loser": "Robert Morris"
+  },
+  {
+    "winner": "Princeton",
+    "loser": "Brown"
+  },
+  {
+    "winner": "Butler",
+    "loser": "Dayton"
+  },
+  {
+    "winner": "Michigan",
+    "loser": "Washington"
+  },
+  {
+    "winner": "Harvard",
+    "loser": "Merrimack"
+  },
+  {
+    "winner": "Yale",
+    "loser": "Stonehill"
+  },
+  {
+    "winner": "Central Michigan",
+    "loser": "Bowling Green"
+  },
+  {
+    "winner": "Oklahoma",
+    "loser": "South Carolina"
+  },
+  {
+    "winner": "Southeast Missouri State",
+    "loser": "Eastern Illinois"
+  },
+  {
+    "winner": "Youngstown State",
+    "loser": "Illinois State"
+  },
+  {
+    "winner": "Georgetown",
+    "loser": "Colgate"
+  },
+  {
+    "winner": "UCF",
+    "loser": "West Virginia"
+  },
+  {
+    "winner": "North Dakota",
+    "loser": "Southern Illinois"
+  },
+  {
+    "winner": "Monmouth",
+    "loser": "Stony Brook"
+  },
+  {
+    "winner": "North Dakota State",
+    "loser": "Indiana State"
+  },
+  {
+    "winner": "Presbyterian",
+    "loser": "Stetson"
+  },
+  {
+    "winner": "Dartmouth",
+    "loser": "Fordham"
+  },
+  {
+    "winner": "Drake",
+    "loser": "Davidson"
+  },
+  {
+    "winner": "Villanova",
+    "loser": "Hampton"
+  },
+  {
+    "winner": "Cornell",
+    "loser": "Bucknell"
+  },
+  {
+    "winner": "Chattanooga",
+    "loser": "East Tennessee State"
+  },
+  {
+    "winner": "Pennsylvania",
+    "loser": "Columbia"
+  },
+  {
+    "winner": "Samford",
+    "loser": "VMI"
+  },
+  {
+    "winner": "UT Martin",
+    "loser": "Gardner-Webb"
+  },
+  {
+    "winner": "Morehead State",
+    "loser": "Marist"
+  },
+  {
+    "winner": "Toledo",
+    "loser": "Kent State"
+  },
+  {
+    "winner": "Tennessee Tech",
+    "loser": "Lindenwood"
+  },
+  {
+    "winner": "Western Carolina",
+    "loser": "The Citadel"
+  },
+  {
+    "winner": "South Dakota",
+    "loser": "Northern Iowa"
+  },
+  {
+    "winner": "St. Thomas (MN)",
+    "loser": "Valparaiso"
+  },
+  {
+    "winner": "Holy Cross",
+    "loser": "Richmond"
+  },
+  {
+    "winner": "South Dakota State",
+    "loser": "Murray State"
+  },
+  {
+    "winner": "Buffalo",
+    "loser": "Massachusetts"
+  },
+  {
+    "winner": "Montana",
+    "loser": "Sacred Heart"
+  },
+  {
+    "winner": "Northwestern",
+    "loser": "Purdue"
+  },
+  {
+    "winner": "Grambling",
+    "loser": "Arkansas-Pine Bluff"
+  },
+  {
+    "winner": "Troy",
+    "loser": "UL Monroe"
+  },
+  {
+    "winner": "SMU",
+    "loser": "Clemson"
+  },
+  {
+    "winner": "Ohio State",
+    "loser": "Wisconsin"
+  },
+  {
+    "winner": "Marshall",
+    "loser": "Texas State"
+  },
+  {
+    "winner": "Indiana",
+    "loser": "Michigan State"
+  },
+  {
+    "winner": "William & Mary",
+    "loser": "Elon"
+  },
+  {
+    "winner": "New Hampshire",
+    "loser": "Campbell"
+  },
+  {
+    "winner": "Georgia",
+    "loser": "Ole Miss"
+  },
+  {
+    "winner": "Rhode Island",
+    "loser": "UAlbany"
+  },
+  {
+    "winner": "Coastal Carolina",
+    "loser": "App State"
+  },
+  {
+    "winner": "Temple",
+    "loser": "Charlotte"
+  },
+  {
+    "winner": "Boise State",
+    "loser": "UNLV"
+  },
+  {
+    "winner": "Air Force",
+    "loser": "Wyoming"
+  },
+  {
+    "winner": "Ball State",
+    "loser": "Akron"
+  },
+  {
+    "winner": "Texas A&M",
+    "loser": "Arkansas"
+  },
+  {
+    "winner": "Ohio",
+    "loser": "Northern Illinois"
+  },
+  {
+    "winner": "North Texas",
+    "loser": "UTSA"
+  },
+  {
+    "winner": "James Madison",
+    "loser": "Old Dominion"
+  },
+  {
+    "winner": "Florida A&M",
+    "loser": "Alcorn State"
+  },
+  {
+    "winner": "UAB",
+    "loser": "Memphis"
+  },
+  {
+    "winner": "Lamar",
+    "loser": "UT Rio Grande Valley"
+  },
+  {
+    "winner": "Arizona State",
+    "loser": "Texas Tech"
+  },
+  {
+    "winner": "Charleston Southern",
+    "loser": "Western Illinois"
+  },
+  {
+    "winner": "Florida",
+    "loser": "Mississippi State"
+  },
+  {
+    "winner": "Weber State",
+    "loser": "Portland State"
+  },
+  {
+    "winner": "Southern Miss",
+    "loser": "Louisiana"
+  },
+  {
+    "winner": "SE Louisiana",
+    "loser": "Northwestern State"
+  },
+  {
+    "winner": "Central Connecticut",
+    "loser": "Wagner"
+  },
+  {
+    "winner": "Prairie View A&M",
+    "loser": "Southern"
+  },
+  {
+    "winner": "East Texas A&M",
+    "loser": "Incarnate Word"
+  },
+  {
+    "winner": "Tennessee State",
+    "loser": "Howard"
+  },
+  {
+    "winner": "Duquesne",
+    "loser": "Mercyhurst"
+  },
+  {
+    "winner": "Virginia",
+    "loser": "Washington State"
+  },
+  {
+    "winner": "Oregon",
+    "loser": "Rutgers"
+  },
+  {
+    "winner": "Georgia Southern",
+    "loser": "Georgia State"
+  },
+  {
+    "winner": "UCLA",
+    "loser": "Maryland"
+  },
+  {
+    "winner": "Hawai'i",
+    "loser": "Colorado State"
+  },
+  {
+    "winner": "North Alabama",
+    "loser": "Eastern Kentucky"
+  },
+  {
+    "winner": "McNeese",
+    "loser": "Houston Christian"
+  },
+  {
+    "winner": "Texas",
+    "loser": "Kentucky"
+  },
+  {
+    "winner": "Eastern Washington",
+    "loser": "Idaho"
+  },
+  {
+    "winner": "Iowa",
+    "loser": "Penn State"
+  },
+  {
+    "winner": "Stephen F. Austin",
+    "loser": "Nicholls"
+  },
+  {
+    "winner": "Tarleton State",
+    "loser": "West Georgia"
+  },
+  {
+    "winner": "Notre Dame",
+    "loser": "USC"
+  },
+  {
+    "winner": "Pittsburgh",
+    "loser": "Syracuse"
+  },
+  {
+    "winner": "Alabama",
+    "loser": "Tennessee"
+  },
+  {
+    "winner": "South Florida",
+    "loser": "Florida Atlantic"
+  },
+  {
+    "winner": "Missouri",
+    "loser": "Auburn"
+  },
+  {
+    "winner": "Cincinnati",
+    "loser": "Oklahoma State"
+  },
+  {
+    "winner": "BYU",
+    "loser": "Utah"
+  },
+  {
+    "winner": "Southern Utah",
+    "loser": "Abilene Christian"
+  },
+  {
+    "winner": "Sacramento State",
+    "loser": "Northern Colorado"
+  },
+  {
+    "winner": "New Mexico",
+    "loser": "Nevada"
+  },
+  {
+    "winner": "Oregon State",
+    "loser": "Lafayette"
+  },
+  {
+    "winner": "Stanford",
+    "loser": "Florida State"
+  },
+  {
+    "winner": "Kennesaw State",
+    "loser": "Florida International"
+  },
+  {
+    "winner": "Western Kentucky",
+    "loser": "Louisiana Tech"
+  },
+  {
+    "winner": "Delaware",
+    "loser": "Middle Tennessee"
+  },
+  {
+    "winner": "Missouri State",
+    "loser": "New Mexico State"
+  },
+  {
+    "winner": "South Alabama",
+    "loser": "Georgia State"
+  },
+  {
+    "winner": "Dartmouth",
+    "loser": "Columbia"
+  },
+  {
+    "winner": "North Texas",
+    "loser": "Charlotte"
+  },
+  {
+    "winner": "Virginia Tech",
+    "loser": "California"
+  },
+  {
+    "winner": "Boise State",
+    "loser": "Nevada"
+  },
+  {
+    "winner": "Montana",
+    "loser": "Sacramento State"
+  },
+  {
+    "winner": "Virginia",
+    "loser": "North Carolina"
+  },
+  {
+    "winner": "Stonehill",
+    "loser": "Mercyhurst"
+  },
+  {
+    "winner": "Dayton",
+    "loser": "Presbyterian"
+  },
+  {
+    "winner": "Memphis",
+    "loser": "South Florida"
+  },
+  {
+    "winner": "Drake",
+    "loser": "Marist"
+  },
+  {
+    "winner": "Nebraska",
+    "loser": "Northwestern"
+  },
+  {
+    "winner": "Wake Forest",
+    "loser": "SMU"
+  },
+  {
+    "winner": "Indiana",
+    "loser": "UCLA"
+  },
+  {
+    "winner": "Ohio",
+    "loser": "Eastern Michigan"
+  },
+  {
+    "winner": "Long Island University",
+    "loser": "New Haven"
+  },
+  {
+    "winner": "Kansas State",
+    "loser": "Kansas"
+  },
+  {
+    "winner": "Old Dominion",
+    "loser": "App State"
+  },
+  {
+    "winner": "Kent State",
+    "loser": "Bowling Green"
+  },
+  {
+    "winner": "Rutgers",
+    "loser": "Purdue"
+  },
+  {
+    "winner": "Harvard",
+    "loser": "Princeton"
+  },
+  {
+    "winner": "San Diego",
+    "loser": "Davidson"
+  },
+  {
+    "winner": "Ole Miss",
+    "loser": "Oklahoma"
+  },
+  {
+    "winner": "Georgia Tech",
+    "loser": "Syracuse"
+  },
+  {
+    "winner": "Georgetown",
+    "loser": "Bucknell"
+  },
+  {
+    "winner": "Wagner",
+    "loser": "Duquesne"
+  },
+  {
+    "winner": "Yale",
+    "loser": "Pennsylvania"
+  },
+  {
+    "winner": "Auburn",
+    "loser": "Arkansas"
+  },
+  {
+    "winner": "Lehigh",
+    "loser": "Fordham"
+  },
+  {
+    "winner": "Colgate",
+    "loser": "Holy Cross"
+  },
+  {
+    "winner": "Rhode Island",
+    "loser": "Bryant"
+  },
+  {
+    "winner": "Maine",
+    "loser": "Elon"
+  },
+  {
+    "winner": "North Carolina A&T",
+    "loser": "Campbell"
+  },
+  {
+    "winner": "New Hampshire",
+    "loser": "William & Mary"
+  },
+  {
+    "winner": "Cornell",
+    "loser": "Brown"
+  },
+  {
+    "winner": "St. Thomas (MN)",
+    "loser": "Stetson"
+  },
+  {
+    "winner": "Tennessee Tech",
+    "loser": "Southeast Missouri State"
+  },
+  {
+    "winner": "Akron",
+    "loser": "Buffalo"
+  },
+  {
+    "winner": "Delaware State",
+    "loser": "North Carolina Central"
+  },
+  {
+    "winner": "Morehead State",
+    "loser": "Valparaiso"
+  },
+  {
+    "winner": "Furman",
+    "loser": "The Citadel"
+  },
+  {
+    "winner": "South Carolina State",
+    "loser": "Norfolk State"
+  },
+  {
+    "winner": "Illinois State",
+    "loser": "South Dakota"
+  },
+  {
+    "winner": "Monmouth",
+    "loser": "Hampton"
+  },
+  {
+    "winner": "West Georgia",
+    "loser": "Central Arkansas"
+  },
+  {
+    "winner": "Charleston Southern",
+    "loser": "Eastern Illinois"
+  },
+  {
+    "winner": "Youngstown State",
+    "loser": "Murray State"
+  },
+  {
+    "winner": "Western Illinois",
+    "loser": "Tennessee State"
+  },
+  {
+    "winner": "Tarleton State",
+    "loser": "Eastern Kentucky"
+  },
+  {
+    "winner": "Lamar",
+    "loser": "Northwestern State"
+  },
+  {
+    "winner": "Rice",
+    "loser": "UConn"
+  },
+  {
+    "winner": "Alcorn State",
+    "loser": "Mississippi Valley State"
+  },
+  {
+    "winner": "Eastern Washington",
+    "loser": "Weber State"
+  },
+  {
+    "winner": "SE Louisiana",
+    "loser": "Houston Christian"
+  },
+  {
+    "winner": "UC Davis",
+    "loser": "Northern Colorado"
+  },
+  {
+    "winner": "Gardner-Webb",
+    "loser": "Lindenwood"
+  },
+  {
+    "winner": "Mercer",
+    "loser": "VMI"
+  },
+  {
+    "winner": "New Mexico",
+    "loser": "Utah State"
+  },
+  {
+    "winner": "Southern Illinois",
+    "loser": "Northern Iowa"
+  },
+  {
+    "winner": "Robert Morris",
+    "loser": "St. Francis (PA)"
+  },
+  {
+    "winner": "Bethune-Cookman",
+    "loser": "Arkansas-Pine Bluff"
+  },
+  {
+    "winner": "BYU",
+    "loser": "Iowa State"
+  },
+  {
+    "winner": "Alabama State",
+    "loser": "Alabama A&M"
+  },
+  {
+    "winner": "Southern Miss",
+    "loser": "UL Monroe"
+  },
+  {
+    "winner": "San Diego State",
+    "loser": "Fresno State"
+  },
+  {
+    "winner": "Miami (OH)",
+    "loser": "Western Michigan"
+  },
+  {
+    "winner": "Washington State",
+    "loser": "Toledo"
+  },
+  {
+    "winner": "Navy",
+    "loser": "Florida Atlantic"
+  },
+  {
+    "winner": "Vanderbilt",
+    "loser": "Missouri"
+  },
+  {
+    "winner": "Chattanooga",
+    "loser": "Samford"
+  },
+  {
+    "winner": "Villanova",
+    "loser": "UAlbany"
+  },
+  {
+    "winner": "Alabama",
+    "loser": "South Carolina"
+  },
+  {
+    "winner": "Iowa",
+    "loser": "Minnesota"
+  },
+  {
+    "winner": "Pittsburgh",
+    "loser": "NC State"
+  },
+  {
+    "winner": "Howard",
+    "loser": "Morgan State"
+  },
+  {
+    "winner": "Northern Illinois",
+    "loser": "Ball State"
+  },
+  {
+    "winner": "East Tennessee State",
+    "loser": "Wofford"
+  },
+  {
+    "winner": "Washington",
+    "loser": "Illinois"
+  },
+  {
+    "winner": "Stony Brook",
+    "loser": "Towson"
+  },
+  {
+    "winner": "Temple",
+    "loser": "Tulsa"
+  },
+  {
+    "winner": "Central Michigan",
+    "loser": "Massachusetts"
+  },
+  {
+    "winner": "North Dakota",
+    "loser": "Indiana State"
+  },
+  {
+    "winner": "Texas Tech",
+    "loser": "Oklahoma State"
+  },
+  {
+    "winner": "Austin Peay",
+    "loser": "North Alabama"
+  },
+  {
+    "winner": "Nicholls",
+    "loser": "McNeese"
+  },
+  {
+    "winner": "Idaho",
+    "loser": "Portland State"
+  },
+  {
+    "winner": "Cincinnati",
+    "loser": "Baylor"
+  },
+  {
+    "winner": "Texas",
+    "loser": "Mississippi State"
+  },
+  {
+    "winner": "Florida A&M",
+    "loser": "Southern"
+  },
+  {
+    "winner": "Northern Arizona",
+    "loser": "Idaho State"
+  },
+  {
+    "winner": "TCU",
+    "loser": "West Virginia"
+  },
+  {
+    "winner": "Grambling",
+    "loser": "Jackson State"
+  },
+  {
+    "winner": "Arkansas State",
+    "loser": "Georgia Southern"
+  },
+  {
+    "winner": "Miami",
+    "loser": "Stanford"
+  },
+  {
+    "winner": "Oregon",
+    "loser": "Wisconsin"
+  },
+  {
+    "winner": "Troy",
+    "loser": "Louisiana"
+  },
+  {
+    "winner": "Stephen F. Austin",
+    "loser": "East Texas A&M"
+  },
+  {
+    "winner": "Texas A&M",
+    "loser": "LSU"
+  },
+  {
+    "winner": "Michigan",
+    "loser": "Michigan State"
+  },
+  {
+    "winner": "Louisville",
+    "loser": "Boston College"
+  },
+  {
+    "winner": "Wyoming",
+    "loser": "Colorado State"
+  },
+  {
+    "winner": "Tennessee",
+    "loser": "Kentucky"
+  },
+  {
+    "winner": "UT Rio Grande Valley",
+    "loser": "Incarnate Word"
+  },
+  {
+    "winner": "Southern Utah",
+    "loser": "Utah Tech"
+  },
+  {
+    "winner": "North Dakota State",
+    "loser": "South Dakota State"
+  },
+  {
+    "winner": "Montana State",
+    "loser": "Cal Poly"
+  },
+  {
+    "winner": "Houston",
+    "loser": "Arizona State"
+  },
+  {
+    "winner": "Utah",
+    "loser": "Colorado"
+  },
+  {
+    "winner": "Kennesaw State",
+    "loser": "UTEP"
+  },
+  {
+    "winner": "James Madison",
+    "loser": "Texas State"
+  },
+  {
+    "winner": "Jacksonville State",
+    "loser": "Middle Tennessee"
+  },
+  {
+    "winner": "Missouri State",
+    "loser": "Florida International"
+  },
+  {
+    "winner": "Delaware State",
+    "loser": "Norfolk State"
+  },
+  {
+    "winner": "Coastal Carolina",
+    "loser": "Marshall"
+  },
+  {
+    "winner": "UTSA",
+    "loser": "Tulane"
+  },
+  {
+    "winner": "Memphis",
+    "loser": "Rice"
+  },
+  {
+    "winner": "Pennsylvania",
+    "loser": "Brown"
+  },
+  {
+    "winner": "North Carolina",
+    "loser": "Syracuse"
+  },
+  {
+    "winner": "Louisiana Tech",
+    "loser": "Sam Houston"
+  },
+  {
+    "winner": "Idaho",
+    "loser": "Northern Arizona"
+  },
+  {
+    "winner": "Central Connecticut",
+    "loser": "Long Island University"
+  },
+  {
+    "winner": "Ohio State",
+    "loser": "Penn State"
+  },
+  {
+    "winner": "Army",
+    "loser": "Air Force"
+  },
+  {
+    "winner": "Texas",
+    "loser": "Vanderbilt"
+  },
+  {
+    "winner": "UConn",
+    "loser": "UAB"
+  },
+  {
+    "winner": "Illinois",
+    "loser": "Rutgers"
+  },
+  {
+    "winner": "Lehigh",
+    "loser": "Georgetown"
+  },
+  {
+    "winner": "Sacred Heart",
+    "loser": "New Haven"
+  },
+  {
+    "winner": "Towson",
+    "loser": "North Carolina A&T"
+  },
+  {
+    "winner": "SMU",
+    "loser": "Miami"
+  },
+  {
+    "winner": "Duke",
+    "loser": "Clemson"
+  },
+  {
+    "winner": "Yale",
+    "loser": "Columbia"
+  },
+  {
+    "winner": "Buffalo",
+    "loser": "Bowling Green"
+  },
+  {
+    "winner": "West Virginia",
+    "loser": "Houston"
+  },
+  {
+    "winner": "Baylor",
+    "loser": "UCF"
+  },
+  {
+    "winner": "Wagner",
+    "loser": "St. Francis (PA)"
+  },
+  {
+    "winner": "North Texas",
+    "loser": "Navy"
+  },
+  {
+    "winner": "Presbyterian",
+    "loser": "Valparaiso"
+  },
+  {
+    "winner": "Cornell",
+    "loser": "Princeton"
+  },
+  {
+    "winner": "Colgate",
+    "loser": "Merrimack"
+  },
+  {
+    "winner": "Maine",
+    "loser": "Stony Brook"
+  },
+  {
+    "winner": "Arizona State",
+    "loser": "Iowa State"
+  },
+  {
+    "winner": "Lafayette",
+    "loser": "Holy Cross"
+  },
+  {
+    "winner": "Tennessee Tech",
+    "loser": "Gardner-Webb"
+  },
+  {
+    "winner": "Morehead State",
+    "loser": "Davidson"
+  },
+  {
+    "winner": "Robert Morris",
+    "loser": "Stonehill"
+  },
+  {
+    "winner": "Drake",
+    "loser": "Butler"
+  },
+  {
+    "winner": "Monmouth",
+    "loser": "Bryant"
+  },
+  {
+    "winner": "Wofford",
+    "loser": "Samford"
+  },
+  {
+    "winner": "The Citadel",
+    "loser": "VMI"
+  },
+  {
+    "winner": "Mercer",
+    "loser": "Furman"
+  },
+  {
+    "winner": "St. Thomas (MN)",
+    "loser": "Marist"
+  },
+  {
+    "winner": "Montana State",
+    "loser": "Northern Colorado"
+  },
+  {
+    "winner": "South Carolina State",
+    "loser": "Morgan State"
+  },
+  {
+    "winner": "Charleston Southern",
+    "loser": "Southeast Missouri State"
+  },
+  {
+    "winner": "Richmond",
+    "loser": "Fordham"
+  },
+  {
+    "winner": "South Dakota",
+    "loser": "North Dakota"
+  },
+  {
+    "winner": "East Carolina",
+    "loser": "Temple"
+  },
+  {
+    "winner": "Illinois State",
+    "loser": "Northern Iowa"
+  },
+  {
+    "winner": "Louisville",
+    "loser": "Virginia Tech"
+  },
+  {
+    "winner": "Alcorn State",
+    "loser": "Texas Southern"
+  },
+  {
+    "winner": "Indiana State",
+    "loser": "South Dakota State"
+  },
+  {
+    "winner": "Harvard",
+    "loser": "Dartmouth"
+  },
+  {
+    "winner": "Montana",
+    "loser": "Weber State"
+  },
+  {
+    "winner": "UT Martin",
+    "loser": "Eastern Illinois"
+  },
+  {
+    "winner": "Incarnate Word",
+    "loser": "Lamar"
+  },
+  {
+    "winner": "Grambling",
+    "loser": "Alabama A&M"
+  },
+  {
+    "winner": "New Mexico",
+    "loser": "UNLV"
+  },
+  {
+    "winner": "Alabama State",
+    "loser": "Prairie View A&M"
+  },
+  {
+    "winner": "Bethune-Cookman",
+    "loser": "Mississippi Valley State"
+  },
+  {
+    "winner": "Arkansas-Pine Bluff",
+    "loser": "Southern"
+  },
+  {
+    "winner": "Indiana",
+    "loser": "Maryland"
+  },
+  {
+    "winner": "William & Mary",
+    "loser": "UAlbany"
+  },
+  {
+    "winner": "Liberty",
+    "loser": "Delaware"
+  },
+  {
+    "winner": "Georgia",
+    "loser": "Florida"
+  },
+  {
+    "winner": "Minnesota",
+    "loser": "Michigan State"
+  },
+  {
+    "winner": "Louisiana",
+    "loser": "South Alabama"
+  },
+  {
+    "winner": "Old Dominion",
+    "loser": "UL Monroe"
+  },
+  {
+    "winner": "North Carolina Central",
+    "loser": "Howard"
+  },
+  {
+    "winner": "Pittsburgh",
+    "loser": "Stanford"
+  },
+  {
+    "winner": "Western Kentucky",
+    "loser": "New Mexico State"
+  },
+  {
+    "winner": "Notre Dame",
+    "loser": "Boston College"
+  },
+  {
+    "winner": "Texas Tech",
+    "loser": "Kansas State"
+  },
+  {
+    "winner": "Fresno State",
+    "loser": "Boise State"
+  },
+  {
+    "winner": "North Dakota State",
+    "loser": "Youngstown State"
+  },
+  {
+    "winner": "Virginia",
+    "loser": "California"
+  },
+  {
+    "winner": "Western Carolina",
+    "loser": "Chattanooga"
+  },
+  {
+    "winner": "Idaho State",
+    "loser": "UC Davis"
+  },
+  {
+    "winner": "Abilene Christian",
+    "loser": "Tarleton State"
+  },
+  {
+    "winner": "Sacramento State",
+    "loser": "Eastern Washington"
+  },
+  {
+    "winner": "San Diego",
+    "loser": "Dayton"
+  },
+  {
+    "winner": "Kansas",
+    "loser": "Oklahoma State"
+  },
+  {
+    "winner": "Nicholls",
+    "loser": "Houston Christian"
+  },
+  {
+    "winner": "Mississippi State",
+    "loser": "Arkansas"
+  },
+  {
+    "winner": "Western Michigan",
+    "loser": "Central Michigan"
+  },
+  {
+    "winner": "Utah Tech",
+    "loser": "North Alabama"
+  },
+  {
+    "winner": "Lindenwood",
+    "loser": "Tennessee State"
+  },
+  {
+    "winner": "Southern Illinois",
+    "loser": "Murray State"
+  },
+  {
+    "winner": "Portland State",
+    "loser": "Cal Poly"
+  },
+  {
+    "winner": "Eastern Kentucky",
+    "loser": "Central Arkansas"
+  },
+  {
+    "winner": "Ole Miss",
+    "loser": "South Carolina"
+  },
+  {
+    "winner": "McNeese",
+    "loser": "Northwestern State"
+  },
+  {
+    "winner": "Jackson State",
+    "loser": "Florida A&M"
+  },
+  {
+    "winner": "SE Louisiana",
+    "loser": "East Texas A&M"
+  },
+  {
+    "winner": "Arizona",
+    "loser": "Colorado"
+  },
+  {
+    "winner": "San Diego State",
+    "loser": "Wyoming"
+  },
+  {
+    "winner": "Michigan",
+    "loser": "Purdue"
+  },
+  {
+    "winner": "Stephen F. Austin",
+    "loser": "UT Rio Grande Valley"
+  },
+  {
+    "winner": "NC State",
+    "loser": "Georgia Tech"
+  },
+  {
+    "winner": "Oregon State",
+    "loser": "Washington State"
+  },
+  {
+    "winner": "Oklahoma",
+    "loser": "Tennessee"
+  },
+  {
+    "winner": "USC",
+    "loser": "Nebraska"
+  },
+  {
+    "winner": "Kentucky",
+    "loser": "Auburn"
+  },
+  {
+    "winner": "Florida State",
+    "loser": "Wake Forest"
+  },
+  {
+    "winner": "Arkansas State",
+    "loser": "Troy"
+  },
+  {
+    "winner": "Southern Utah",
+    "loser": "Austin Peay"
+  },
+  {
+    "winner": "Utah",
+    "loser": "Cincinnati"
+  },
+  {
+    "winner": "San José State",
+    "loser": "Hawai'i"
+  },
+  {
+    "winner": "Ohio",
+    "loser": "Miami (OH)"
+  },
+  {
+    "winner": "Akron",
+    "loser": "Massachusetts"
+  },
+  {
+    "winner": "Ball State",
+    "loser": "Kent State"
+  },
+  {
+    "winner": "Toledo",
+    "loser": "Northern Illinois"
+  },
+  {
+    "winner": "South Florida",
+    "loser": "UTSA"
+  },
+  {
+    "winner": "Georgia Southern",
+    "loser": "App State"
+  },
+  {
+    "winner": "Harvard",
+    "loser": "Columbia"
+  },
+  {
+    "winner": "Delaware State",
+    "loser": "Morgan State"
+  },
+  {
+    "winner": "Houston",
+    "loser": "UCF"
+  },
+  {
+    "winner": "USC",
+    "loser": "Northwestern"
+  },
+  {
+    "winner": "Tulane",
+    "loser": "Memphis"
+  },
+  {
+    "winner": "Stony Brook",
+    "loser": "North Carolina A&T"
+  },
+  {
+    "winner": "Wagner",
+    "loser": "Robert Morris"
+  },
+  {
+    "winner": "Indiana",
+    "loser": "Penn State"
+  },
+  {
+    "winner": "Chattanooga",
+    "loser": "Furman"
+  },
+  {
+    "winner": "Southern Miss",
+    "loser": "Arkansas State"
+  },
+  {
+    "winner": "Army",
+    "loser": "Temple"
+  },
+  {
+    "winner": "Georgia",
+    "loser": "Mississippi State"
+  },
+  {
+    "winner": "West Virginia",
+    "loser": "Colorado"
+  },
+  {
+    "winner": "Texas Tech",
+    "loser": "BYU"
+  },
+  {
+    "winner": "SMU",
+    "loser": "Boston College"
+  },
+  {
+    "winner": "James Madison",
+    "loser": "Marshall"
+  },
+  {
+    "winner": "Central Connecticut",
+    "loser": "Stonehill"
+  },
+  {
+    "winner": "Long Island University",
+    "loser": "Duquesne"
+  },
+  {
+    "winner": "New Hampshire",
+    "loser": "Monmouth"
+  },
+  {
+    "winner": "Mercyhurst",
+    "loser": "St. Francis (PA)"
+  },
+  {
+    "winner": "Lehigh",
+    "loser": "Holy Cross"
+  },
+  {
+    "winner": "Yale",
+    "loser": "Brown"
+  },
+  {
+    "winner": "Lafayette",
+    "loser": "Colgate"
+  },
+  {
+    "winner": "Missouri State",
+    "loser": "Liberty"
+  },
+  {
+    "winner": "Ohio State",
+    "loser": "Purdue"
+  },
+  {
+    "winner": "Tennessee Tech",
+    "loser": "Eastern Illinois"
+  },
+  {
+    "winner": "Marist",
+    "loser": "Stetson"
+  },
+  {
+    "winner": "Cornell",
+    "loser": "Pennsylvania"
+  },
+  {
+    "winner": "San Diego",
+    "loser": "Valparaiso"
+  },
+  {
+    "winner": "Richmond",
+    "loser": "Georgetown"
+  },
+  {
+    "winner": "Villanova",
+    "loser": "Towson"
+  },
+  {
+    "winner": "Bucknell",
+    "loser": "Fordham"
+  },
+  {
+    "winner": "Morehead State",
+    "loser": "Butler"
+  },
+  {
+    "winner": "Bryant",
+    "loser": "UAlbany"
+  },
+  {
+    "winner": "Illinois State",
+    "loser": "Indiana State"
+  },
+  {
+    "winner": "Maine",
+    "loser": "Hampton"
+  },
+  {
+    "winner": "Davidson",
+    "loser": "Presbyterian"
+  },
+  {
+    "winner": "St. Thomas (MN)",
+    "loser": "Drake"
+  },
+  {
+    "winner": "Dartmouth",
+    "loser": "Princeton"
+  },
+  {
+    "winner": "Eastern Michigan",
+    "loser": "Bowling Green"
+  },
+  {
+    "winner": "Ole Miss",
+    "loser": "The Citadel"
+  },
+  {
+    "winner": "Gardner-Webb",
+    "loser": "Southeast Missouri State"
+  },
+  {
+    "winner": "Wofford",
+    "loser": "VMI"
+  },
+  {
+    "winner": "South Carolina State",
+    "loser": "Howard"
+  },
+  {
+    "winner": "Northern Iowa",
+    "loser": "Murray State"
+  },
+  {
+    "winner": "Rice",
+    "loser": "UAB"
+  },
+  {
+    "winner": "Youngstown State",
+    "loser": "Southern Illinois"
+  },
+  {
+    "winner": "Western Illinois",
+    "loser": "Lindenwood"
+  },
+  {
+    "winner": "Campbell",
+    "loser": "William & Mary"
+  },
+  {
+    "winner": "North Carolina Central",
+    "loser": "Norfolk State"
+  },
+  {
+    "winner": "UT Martin",
+    "loser": "Tennessee State"
+  },
+  {
+    "winner": "Rhode Island",
+    "loser": "Elon"
+  },
+  {
+    "winner": "North Dakota State",
+    "loser": "North Dakota"
+  },
+  {
+    "winner": "Incarnate Word",
+    "loser": "Northwestern State"
+  },
+  {
+    "winner": "Rutgers",
+    "loser": "Maryland"
+  },
+  {
+    "winner": "Mercer",
+    "loser": "Western Carolina"
+  },
+  {
+    "winner": "Abilene Christian",
+    "loser": "Utah Tech"
+  },
+  {
+    "winner": "Jackson State",
+    "loser": "Mississippi Valley State"
+  },
+  {
+    "winner": "Montana State",
+    "loser": "Weber State"
+  },
+  {
+    "winner": "East Carolina",
+    "loser": "Charlotte"
+  },
+  {
+    "winner": "Florida A&M",
+    "loser": "Arkansas-Pine Bluff"
+  },
+  {
+    "winner": "Alabama State",
+    "loser": "Texas Southern"
+  },
+  {
+    "winner": "Prairie View A&M",
+    "loser": "Alabama A&M"
+  },
+  {
+    "winner": "Florida International",
+    "loser": "Middle Tennessee"
+  },
+  {
+    "winner": "Delaware",
+    "loser": "Louisiana Tech"
+  },
+  {
+    "winner": "Jacksonville State",
+    "loser": "UTEP"
+  },
+  {
+    "winner": "Grambling",
+    "loser": "Bethune-Cookman"
+  },
+  {
+    "winner": "Stephen F. Austin",
+    "loser": "Houston Christian"
+  },
+  {
+    "winner": "Southern Utah",
+    "loser": "Eastern Kentucky"
+  },
+  {
+    "winner": "Montana",
+    "loser": "Eastern Washington"
+  },
+  {
+    "winner": "Iowa State",
+    "loser": "TCU"
+  },
+  {
+    "winner": "UConn",
+    "loser": "Duke"
+  },
+  {
+    "winner": "East Tennessee State",
+    "loser": "Samford"
+  },
+  {
+    "winner": "New Haven",
+    "loser": "Merrimack"
+  },
+  {
+    "winner": "Oregon",
+    "loser": "Iowa"
+  },
+  {
+    "winner": "Texas A&M",
+    "loser": "Missouri"
+  },
+  {
+    "winner": "Arizona",
+    "loser": "Kansas"
+  },
+  {
+    "winner": "Miami",
+    "loser": "Syracuse"
+  },
+  {
+    "winner": "Vanderbilt",
+    "loser": "Auburn"
+  },
+  {
+    "winner": "Coastal Carolina",
+    "loser": "Georgia State"
+  },
+  {
+    "winner": "West Georgia",
+    "loser": "North Alabama"
+  },
+  {
+    "winner": "South Dakota",
+    "loser": "South Dakota State"
+  },
+  {
+    "winner": "Lamar",
+    "loser": "SE Louisiana"
+  },
+  {
+    "winner": "Kennesaw State",
+    "loser": "New Mexico State"
+  },
+  {
+    "winner": "Austin Peay",
+    "loser": "Central Arkansas"
+  },
+  {
+    "winner": "Alcorn State",
+    "loser": "Southern"
+  },
+  {
+    "winner": "North Carolina",
+    "loser": "Stanford"
+  },
+  {
+    "winner": "Wisconsin",
+    "loser": "Washington"
+  },
+  {
+    "winner": "Sacramento State",
+    "loser": "Portland State"
+  },
+  {
+    "winner": "Louisiana",
+    "loser": "Texas State"
+  },
+  {
+    "winner": "McNeese",
+    "loser": "East Texas A&M"
+  },
+  {
+    "winner": "UT Rio Grande Valley",
+    "loser": "Nicholls"
+  },
+  {
+    "winner": "Idaho State",
+    "loser": "Cal Poly"
+  },
+  {
+    "winner": "Air Force",
+    "loser": "San José State"
+  },
+  {
+    "winner": "Northern Arizona",
+    "loser": "Northern Colorado"
+  },
+  {
+    "winner": "Clemson",
+    "loser": "Florida State"
+  },
+  {
+    "winner": "Wake Forest",
+    "loser": "Virginia"
+  },
+  {
+    "winner": "California",
+    "loser": "Louisville"
+  },
+  {
+    "winner": "UC Davis",
+    "loser": "Idaho"
+  },
+  {
+    "winner": "Utah State",
+    "loser": "Nevada"
+  },
+  {
+    "winner": "Alabama",
+    "loser": "LSU"
+  },
+  {
+    "winner": "Kentucky",
+    "loser": "Florida"
+  },
+  {
+    "winner": "Notre Dame",
+    "loser": "Navy"
+  },
+  {
+    "winner": "Nebraska",
+    "loser": "UCLA"
+  },
+  {
+    "winner": "UNLV",
+    "loser": "Colorado State"
+  },
+  {
+    "winner": "Sam Houston",
+    "loser": "Oregon State"
+  },
+  {
+    "winner": "Hawai'i",
+    "loser": "San Diego State"
+  }
+]

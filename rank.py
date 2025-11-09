@@ -14,7 +14,7 @@ def ranking_loss(order, games):
     return loss
 
 
-def optimize_ranking(games, max_iter=100000, seed=42):
+def optimize_ranking(games, teams_file=None, max_iter=100000, seed=42):
     """Use simulated annealing to find a near-optimal ranking."""
     random.seed(seed)
     teams = list({g["winner"] for g in games} | {g["loser"] for g in games})
@@ -48,12 +48,78 @@ def optimize_ranking(games, max_iter=100000, seed=42):
         if step % 1000 == 0:
             temperature *= 0.98
 
+    # Sliding optimization
+    max_total_passes = 1000
+    total_passes = 0
+    max_slide_distance = 3
+    
+    while total_passes < max_total_passes:
+        total_passes += 1
+        improved = False
+        
+        for current_pos, team in enumerate(best_order):
+            best_slide_pos = current_pos
+            best_slide_loss = best_loss
+            
+            # Try sliding up (to lower rank numbers)
+            for slide_up in range(1, max_slide_distance + 1):
+                new_pos = current_pos - slide_up
+                if new_pos < 0:
+                    break
+                
+                new_order = best_order[:]
+                # Remove team from current position and insert at new position
+                new_order.pop(current_pos)
+                new_order.insert(new_pos, team)
+                
+                new_loss = ranking_loss(new_order, games)
+                if new_loss < best_slide_loss:
+                    best_slide_loss = new_loss
+                    best_slide_pos = new_pos
+            
+            # Try sliding down (to higher rank numbers)  
+            for slide_down in range(1, max_slide_distance + 1):
+                new_pos = current_pos + slide_down
+                if new_pos >= len(best_order):
+                    break
+                
+                new_order = best_order[:]
+                new_order.pop(current_pos)
+                new_order.insert(new_pos, team)
+                
+                new_loss = ranking_loss(new_order, games)
+                if new_loss < best_slide_loss:
+                    best_slide_loss = new_loss
+                    best_slide_pos = new_pos
+            
+            # If we found a better position for this team
+            if best_slide_pos != current_pos:
+                new_order = best_order[:]
+                new_order.pop(current_pos)
+                new_order.insert(best_slide_pos, team)
+                
+                best_order = new_order
+                best_loss = best_slide_loss
+                improved = True
+                break  # Restart from the beginning after any change
+        
+        if not improved:
+            break
+    
+    print(f"Sliding optimization completed in {total_passes} passes")
+    print(f"Final loss: {best_loss:.2f}")
+
+    if teams_file:
+        with open(teams_file, "r", encoding="utf-8") as f:
+            specified_teams = json.load(f)
+        best_order = [t for t in best_order if t in specified_teams]
     ranking = [{"rank": i + 1, "team": t} for i, t in enumerate(best_order)]
+
     return ranking, best_loss
 
-
 if __name__ == "__main__":
-    input_file = input("Enter input file: ")
+    input_file = input("Enter input file with results: ")
+    teams_file = input("Enter file with list of teams to rank (optional, press enter to skip): ")
     output_file = input("Enter output file name (default output.json): ")
     if not output_file:
         output_file = "output.json"
@@ -67,7 +133,7 @@ if __name__ == "__main__":
         games = json.load(f)
 
     print(f"Loaded {len(games)} games...")
-    ranking, loss = optimize_ranking(games)
+    ranking, loss = optimize_ranking(games, teams_file if teams_file else None)
 
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(ranking, f, indent=2, ensure_ascii=False)
