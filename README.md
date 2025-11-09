@@ -1,4 +1,4 @@
-# team-ranking
+# Ranking Algorithm
 
 ## Introduction
 
