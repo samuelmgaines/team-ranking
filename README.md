@@ -18,8 +18,7 @@ Define a game as an ordered pair of two different competitors. For a game $(c_i,
 
 Let $r_i$ be the integer ranking of competitor $c_i$ for each $i \in \{1,...,n\}$. It must be the case that $r_i \neq r_j$ for all unique $i, j \leq n$. It must also be the case that $1 \leq r_i \leq n$ for all $i \leq n$. In other words, each team should be assigned a unique integer ranking from $1$ to $n$.
 
-> [!NOTE]
-> In this document, a "higher" ranking indicates a lower number; i.e., if $r_1 = 4$ and $r_2 = 6$, we say $c_1$ is ranked higher than $c_2$.
+> [!NOTE] In this document, a "higher" ranking indicates a lower number; i.e., if $r_1 = 4$ and $r_2 = 6$, we say $c_1$ is ranked higher than $c_2$.
 
 ### Objective
 
