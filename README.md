@@ -29,7 +29,7 @@ For each game $(c_i, c_j)$, we can compute an inconsistency score. If $r_i > r_j
 
 The total inconsistency score of the ranking is just the sum of all the inconsistency scores of the games. Our objective is to minimize this total inconsistency score. Combine this objective with the rank constraints outlined earlier, and we see the optimization problem $(1)$ that defines our ranking system.
 
-![Eq1](img/eq1.png)
+![Eq1](./img/eq1.png)
 
 ## The Computation
 
