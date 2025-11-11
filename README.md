@@ -16,7 +16,7 @@ Suppose we have $n$ competitors labelled $c_1, c_2, ..., c_n$.
 
 Define a game as an ordered pair of two different competitors. For a game $(c_i, c_j)$, we say that competitor $c_i$ is the winner and competitor $c_j$ is the loser. Let $G$ be a collection of $m$ not necessarily unique games.
 
-Let $r_i$ be the integer rank of competitor $c_i$ for each $i \in \{1,...,n\}$. It must be the case that $r_i \neq r_j$ for all unique $i, j \leq n$. It must also be the case that $1 \leq r_i \leq n$ for all $i \leq n$. In other words, each team should be assigned a unique integer rank from $1$ to $n$.
+Let $r_i$ be the integer rank of competitor $c_i$ for each $i \in \{1,...,n\}$. It must be the case that $r_i \neq r_j$ for all unique $i, j \leq n$. It must also be the case that $1 \leq r_i \leq n$ for all $i \leq n$. In other words, each competitor should be assigned a unique integer rank from $1$ to $n$.
 
 > [!NOTE]
 > In this document, a "higher" rank indicates a lower number; i.e., if $r_1 = 4$ and $r_2 = 6$, we say $c_1$ is ranked higher than $c_2$.
@@ -25,7 +25,7 @@ Let $r_i$ be the integer rank of competitor $c_i$ for each $i \in \{1,...,n\}$. 
 
 As stated in the Introduction, our biggest priority is consistency, or conversely, minimizing inconsistency. An inconsistency occurs when a competitor $c_i$ is ranked higher than another competitor $c_j$ despite $c_j$ having beaten $c_i$ in a game.
 
-For each game $(c_i, c_j)$, we can compute an inconsistency score. If $r_i > r_j$, then we say the inconsistency score is $0$ (since this is a "consistent" game). However, if $r_i < r_j$, then we say the inconsistency score is $r_j - r_i$, i.e. the difference of the two teams' ranks. These two cases can be combined by saying the inconsistency score of a game $(c_i, c_j)$ is $max(0, r_j - r_i)$.
+For each game $(c_i, c_j)$, we can compute an inconsistency score. If $r_i > r_j$, then we say the inconsistency score is $0$ (since this is a "consistent" game). However, if $r_i < r_j$, then we say the inconsistency score is $r_j - r_i$, i.e. the difference of the two competitors' ranks. These two cases can be combined by saying the inconsistency score of a game $(c_i, c_j)$ is $max(0, r_j - r_i)$.
 
 The total inconsistency score of the ranking is just the sum of all the inconsistency scores of the games. Our objective is to minimize this total inconsistency score. Combine this objective with the rank constraints outlined earlier, and we see the optimization problem $(1)$ that defines our ranking system.
 
@@ -45,9 +45,22 @@ Now, let $r_1=2$ and $r_2=1$. The game between $c_1$ and $c_2$ is now inconsiste
 
 Notice that in $(1)$, both rankings are equally consistent. However, I propose that a better ranking, when magnitude of inconsistency is equivalent, should then minimize the number of inconsistencies. This is certainly the precedent set in many rankings to prioritize head-to-head results. In this case, letting $r_1=1$ and $r_2=2$ should be preferred so the game between $c_1$ and $c_2$ is a consistent one with the ranking.
 
-This can be achieved by not only tracking the sizes of each inconsistency, but also the number of inconsistencies. Therefore, our new objective function is the sum of all game inconsistency scores plus the number of inconsistent games. Equivalently, we can just add $1$ to each inconsistent game to form a new game inconsistency score, $max(0, r_j - r_i + 1)$ for game $(c_i, c_j)$. Indeed, if $r_i > r_j$, then the game still has score $0$.
+This can be achieved by not only tracking the size of each inconsistency, but also the number of inconsistencies. Therefore, our new objective function is the sum of all game inconsistency scores plus the number of inconsistent games. Equivalently, we can just add $1$ to each inconsistent game to form a new game inconsistency score, $max(0, r_j - r_i + 1)$ for game $(c_i, c_j)$. Indeed, if $r_i > r_j$, then the game still has score $0$.
 
 This can also be confirmed with our previous example. Letting $r_1 = 1$ and $r_2 = 2$ gives total inconsistency score $0 + (r_3 - 1 + 1) = r_3$. On the other hand, letting $r_1 = 2$ and $r_2 = 1$ gives total inconsistency score $(2 - 1 + 1) + (r_3 - 2 + 1) = r_3 + 1$. The first rank assignment now has a lower inconsistency score, as desired.
+
+### Considering Strength Of Schedule
+
+While our primary objective remains consistency, we recognize that not all wins and losses are equal. A win against a top-tier competitor should carry more weight than a win against a bottom-tier competitor, even when both are consistent with the ranking.
+
+To break ties between rankings with identical inconsistency scores, we introduce a strength of schedule metric. However, we must ensure this never compromises our core consistency objective. We achieve this by adding a carefully bounded tie-breaking term to our optimization problem.
+
+We will use the average rank of a competitor $c_i$'s opponents to determine a strength of schedule metric, $SOS_i$. Let $OPP_i$ be the collection of not necessarily unique opponents that $c_i$ has played. Mathematically, we compute $SOS_i$ using $(2)$.
+
+$$
+SOS_i=\sum_{c_j \in OPP_i}\frac{r_j}{|OPP_i|}
+\tag{2}
+$$
 
 ### Other Improvements
 
