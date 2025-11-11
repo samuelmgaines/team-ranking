@@ -8,7 +8,7 @@ There is a lot of controversy behind some decisions made by college sports commi
 
 My personal opinion is that the most important quality of a ranking should be consistency; that is, if $A$ wins against $B$, $A$ should be ranked higher than $B$. I propose a new ranking system which prioritizes consistency above all else. This is a work in progress.
 
-## The Ranking System
+## The First Ranking System
 
 ### Competitors, Games, and Ranks
 
@@ -21,7 +21,7 @@ Let $r_i$ be the integer rank of competitor $c_i$ for each $i \in \{1,...,n\}$. 
 > [!NOTE]
 > In this document, a "higher" rank indicates a lower number; i.e., if $r_1 = 4$ and $r_2 = 6$, we say $c_1$ is ranked higher than $c_2$.
 
-### Objective
+### First Mathematical Formulation
 
 As stated in the Introduction, our biggest priority is consistency, or conversely, minimizing inconsistency. An inconsistency occurs when a competitor $c_i$ is ranked higher than another competitor $c_j$ despite $c_j$ having beaten $c_i$ in a game.
 
@@ -29,7 +29,33 @@ For each game $(c_i, c_j)$, we can compute an inconsistency score. If $r_i > r_j
 
 The total inconsistency score of the ranking is just the sum of all the inconsistency scores of the games. Our objective is to minimize this total inconsistency score. Combine this objective with the rank constraints outlined earlier, and we see the optimization problem $(1)$ that defines our ranking system.
 
-![Eq1](./img/eq1.png)
+![eq1](img/eq1.png)
+
+## The Improved Ranking System
+
+Optimization problem $(1)$ is valid and prioritizes consistency, but there are a few features that can be viewed as problematic. We make small changes to the formulation to solve these problems.
+
+### Respecting Head-To-Head Results
+
+Consider a situation where we have a clear top two competitors $c_1$ and $c_2$. Suppose $c_1$ has beaten $c_2$, but $c_1$ has lost to a significantly lower ranked competitor $c_3$. Would we rather have $c_1$ or $c_2$ be ranked $1$?
+
+Let's consider both cases with the objective function proposed in $(1)$. If we let $r_1=1$ and $r_2=2$, then the game between $c_1$ and $c_2$ is consistent. The game between $c_1$ and $c_3$ gives an inconsistency score of $r_3 - 1$.
+
+Now, let $r_1=2$ and $r_2=1$. The game between $c_1$ and $c_2$ is now inconsistent with score $1$. The game between $c_1$ and $c_3$ is inconsistent with score $r_3 - 2$. The total inconsistency score here is $1 + (r_3 - 2) = r_3 - 1$.
+
+Notice that in $1$, both rankings are equally consistent. However, I propose that a better ranking, when magnitude of inconsistency is equivalent, should then minimize the number of inconsistencies. In this case, letting $r_1=1$ and $r_2=2$ should be preferred so the game between $c_1$ and $c_2$ is a consistent one with the ranking.
+
+This can be achieved by not only tracking the sizes of each inconsistency, but also the number of inconsistencies. Therefore, our new objective function is the sum of all game inconsistency scores plus the number of inconsistent games. Equivalently, we can just add $1$ to each inconsistent game to form a new game inconsistency score, $max(0, r_j - r_i + 1) for game (c_i, c_j). Indeed, if $r_i > r_j$, then the game still has score $0$.
+
+This can also be confirmed with our previous example. Letting $r_1 = 1$ and $r_2 = 2$ gives total inconsistency score $0 + (r_3 - 1 + 1) = r_3$. On the other hand, letting $r_1 = 2$ and $r_2 = 1$ gives total inconsistency score $(2 - 1 + 1) + (r_3 - 2 + 1) = r_3 + 1$. The first rank assignment now has a lower inconsistency score, as desired.
+
+### Other Improvements
+
+Description of other improvements made to the optimization problem.
+
+### Improved Mathematical Formulation
+
+The new mathematical formulation.
 
 ## The Computation
 
