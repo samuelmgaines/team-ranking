@@ -153,6 +153,11 @@ The first term minimizes ranking inconsistencies, while the second term breaks t
 
 Description of how the ranking is actually computed.
 
+TODO:
+
+-   Make cooling rate a parameter
+-   Correct formula with $\alpha$
+
 ## The Repository
 
 Description of the parts of the repository and how to use it.
