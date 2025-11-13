@@ -162,7 +162,7 @@ def optimize_ranking(games, competitors_file=None, max_iter=MAX_ITER, seed=SEED)
 
         # Gradually cool temperature
         if step % 1000 == 0:
-            temperature *= 0.99
+            temperature *= 0.999
             
         # Print progress every 10 seconds
         current_time = time.time()

@@ -2,11 +2,13 @@
 
 ## Introduction
 
-There are many ways to rank a set of competitors given results of one-on-one games between them. The NFL and NBA have a deterministic method to determine which teams make the playoffs, looking at record, division, and head-to-head matchups. The ATP uses a point system to determine world tennis rankings. College sports, on the other hand, typically relies on committees to make ranking decisions.
+There are many ways to rank competitors using results from one-on-one games. Professional leagues such as the NFL and NBA use deterministic rules based on record, division standings, and head-to-head outcomes. Tennis uses a cumulative point system to determine ATP world rankings. College sports, however, typically rely on committees to make subjective decisions.
 
-There is a lot of controversy behind some decisions made by college sports committees. However, it is difficult to rely on something as simple as win-loss record to determine college rankings due to a wide variety of schedules.
+Committee-based systems generate controversy, yet relying solely on win–loss records is inadequate in some leagues because teams play vastly different schedules.
 
-My personal opinion is that the most important quality of a ranking should be consistency; that is, if $A$ wins against $B$, $A$ should be ranked higher than $B$. I propose a new ranking system which prioritizes consistency above all else. This is a work in progress.
+My view is that **the most important property of a ranking is consistency**—if competitor $A$ defeats competitor $B$, then $A$ should be ranked higher than $B$.
+
+This document introduces a ranking system that **prioritizes consistency above all else**, and then enhances it with tunable parameters that address realistic edge cases. This remains a work in progress.
 
 ## The First Ranking System
 
@@ -14,140 +16,186 @@ My personal opinion is that the most important quality of a ranking should be co
 
 Suppose we have $n$ competitors labelled $c_1, c_2, ..., c_n$.
 
-Define a game as an ordered pair of two different competitors. For a game $(c_i, c_j)$, we say that competitor $c_i$ is the winner and competitor $c_j$ is the loser. Let $G$ be a collection of games. Games are not necessarily unique; $G$ can contain the same game multiple times. If this is the case, the game will contribute to totals as many time as it is present in $G$.
+A **game** is an ordered pair $(c_i, c_j)$ indicating that $c_i$ defeated $c_j$. We treat the set of games $G$ as a **multiset**: the same match may appear multiple times, and each appearance contributes separately to totals.
 
-Let $r_i$ be the integer rank of competitor $c_i$ for each $i \in \{1,...,n\}$. It must be the case that $r_i \neq r_j$ for all unique $i, j \leq n$. It must also be the case that $1 \leq r_i \leq n$ for all $i \leq n$. In other words, each competitor should be assigned a unique integer rank from $1$ to $n$.
+Each competitor is assigned a unique integer rank from $1$ (best) to $n$ (worst). Thus,
 
-> [!NOTE]
-> In this document, a "higher" rank indicates a lower number; i.e., if $r_1 = 4$ and $r_2 = 6$, we say $c_1$ is ranked higher than $c_2$.
+-   $1 \leq r_i \leq n$ for all $i$,
+-   $r_i \neq r_j$ for all $i \neq j$.
+
+In other words, the rank vector $r = (r_1, ..., r_n)$ is a permutation of $\{1, ..., n\}$.
 
 ### First Mathematical Formulation
 
-As stated in the Introduction, our biggest priority is consistency, or conversely, minimizing inconsistency. An inconsistency occurs when a competitor $c_i$ is ranked higher than another competitor $c_j$ despite $c_j$ having beaten $c_i$ in a game.
+An **inconsistency** occurs when a lower-ranked competitor defeats a higher-ranked one. For a game $(c_i, c_j)$:
 
-For each game $(c_i, c_j)$, we can compute an inconsistency score. If $r_i > r_j$, then we say the inconsistency score is $0$ (since this is a "consistent" game). However, if $r_i < r_j$, then we say the inconsistency score is $r_j - r_i$, i.e. the difference of the two competitors' ranks. These two cases can be combined by saying the inconsistency score of a game $(c_i, c_j)$ is $\max(0, r_j - r_i)$.
+-   If the ranking agrees with the outcome ($r_i < r_j$), the inconsistency score is $0$.
+-   If the ranking contradicts the result ($r_i > r_j$), the inconsistency score is $r_i - r_j$.
 
-The total inconsistency score of the ranking is just the sum of all the inconsistency scores of the games. Our objective is to minimize this total inconsistency score. Combine this objective with the rank constraints outlined earlier, and we see the optimization problem $(1)$ that defines our ranking system.
+These cases can be written compactly as:
 
-![eq1](img/eq1.png)
+$$
+max(0, r_i - r_j).
+$$
+
+The **total inconsistency score** is the sum of these values over all games. To prioritize consistency, we minimize this score subject to ranking constraints:
+
+$$
+\min \sum_{(c_i, c_j) \in G} \max(0, r_i - r_j)\\
+\text{s.t. } r_i \neq r_j \text{ } \forall \text{ } i \neq j \\
+r_i \in {1, ..., n} \text{ } \forall \text{ } i
+\tag{1}
+$$
+
+This formulation is valid and captures the idea of minimizing ranking contradictions. However, it has some shortcomings, which motivate additional refinements.
 
 ## The Improved Ranking System
 
-Optimization problem $(1)$ is valid and prioritizes consistency, but there are a few features that could be viewed as problematic. We make small, parameterized changes to the formulation to solve these problems, allowing the ranking behavior to be tuned based on specific preferences and league characteristics.
+Optimization problem $(1)$ focuses solely on the **total magnitude** of inconsistencies. While this is desirable, it misses two features commonly valued in rankings:
+
+1. Respecting head-to-head results, even when inconsistency magnitudes tie.
+
+2. Considering strength of schedule, once consistency is maximized.
+
+We address each separately.
 
 ### Respecting Head-To-Head Results
 
-Consider a situation where we have a clear top two competitors $c_1$ and $c_2$. Suppose $c_1$ has beaten $c_2$, but $c_1$ has lost to a significantly lower ranked competitor $c_3$. Should $c_1$ or $c_2$ be ranked first?
+Consider three competitors $c_1$, $c_2$, and $c_3$:
 
-Let's consider both cases with the objective function proposed in $(1)$. If we let $r_1=1$ and $r_2=2$, then the game between $c_1$ and $c_2$ is consistent. The game between $c_1$ and $c_3$ gives an inconsistency score of $r_3 - 1$.
+-   $c_1$ beats $c_2$
+-   $c_1$ loses to $c_3$
 
-Now, let $r_1=2$ and $r_2=1$. The game between $c_1$ and $c_2$ is now inconsistent with score $1$. The game between $c_1$ and $c_3$ is inconsistent with score $r_3 - 2$. The total inconsistency score here is $1 + (r_3 - 2) = r_3 - 1$.
+Suppose $c_1$ and $c_2$ are clearly above the rest. Under formulation $(1)$:
 
-Notice that in $(1)$, both rankings are equally consistent. However, I propose that a better ranking, when magnitude of inconsistency is equivalent, should then minimize the number of inconsistencies. This is certainly the precedent set in many rankings to prioritize head-to-head results. In this case, letting $r_1=1$ and $r_2=2$ should be preferred so the game between $c_1$ and $c_2$ is a consistent one with the ranking.
+-   Ranking $c_1 = 1, c_2 = 2$ yields total inconsistency $r_3 - 1$.
+-   Ranking $c_1 = 2, c_2 = 1$ yields total inconsistency $1 + (r_3 - 2) = r_3 - 1$.
 
-This can be achieved by not only tracking the size of each inconsistency, but also the number of inconsistencies. Therefore, we introduce a parameter $\alpha \geq 0$ to form a new game inconsistency score, $\max(0, \alpha + r_j - r_i)$ for game $(c_i, c_j)$. If $r_i > r_j$, then the game still has score $0$.
+Thus, both are equally consistent under $(1)$. But intuitively—and in common ranking systems—**if the magnitude ties, the ranking with fewer inconsistencies should be preferred**. In this example, $c_1$ should be ranked above $c_2$.
 
-The parameter $\alpha$, which must be a non-negative integer, controls the trade-off between inconsistency magnitude and inconsistency count:
+To accomplish this, we introduce a parameter $\alpha \geq 0$ that assigns an additional penalty per inconsistent game. Define:
 
-$\alpha = 0$: Pure magnitude-based scoring. Only the rank difference matters, not the number of inconsistencies. A single large inconsistency is equivalent to many small inconsistencies with the same total magnitude. This is the same as before.
+$$
+I(r_i, r_j, \alpha) =
+\begin{cases}
+    0 & \text{if } r_i < r_j,\\
+    (r_i - r_j) + \alpha  & \text{if } r_i > r_j.
+\end{cases}
+\tag{2}
+$$
 
-$\alpha = 1$: Balanced approach. Each inconsistency contributes 1 point plus the magnitude difference. This favors minimizing the number of inconsistencies when total magnitudes are equal.
+Interpretation of $\alpha$:
 
-$\alpha > 1$: Count-prioritizing approach. More heavily emphasizes minimizing the number of inconsistencies over the size of the inconsistencies.
+-   $\alpha = 0$: pure magnitude—this recovers formulation $(1)$.
+-   $\alpha = 1$: ties in magnitude are broken by counting inconsistencies.
+-   $\alpha > 1$: strongly prioritizes minimizing the _number_ of inconsistencies.
 
-This can also be confirmed with our previous example. Letting $r_1 = 1$ and $r_2 = 2$ gives total inconsistency score $0 + (\alpha + r_3 - 1) = \alpha + r_3 - 1$. On the other hand, letting $r_1 = 2$ and $r_2 = 1$ gives total inconsistency score $(\alpha + 2 - 1) + (\alpha + r_3 - 2) = 2\alpha + r_3 - 1$. The first rank assignment now has a lower inconsistency score for any $\alpha > 0$, as desired.
-
-Requiring $\alpha$ to be an integer ensures that inconsistency scores remain integers, which is crucial for maintaining the strict priority of consistency over strength of schedule (discussed in the next section).
+Requiring $\alpha$ to be an integer ensures inconsistency scores remain integer-valued, which will be important later when we add a fractional tie-breaker.
 
 ### Considering Strength Of Schedule
 
-While our primary objective remains consistency, we recognize that not all results are equal. A win against a top-tier competitor should carry more weight than a win against a bottom-tier competitor, and a loss to a bottom-tier competitor should be more damaging than a loss to a top-tier competitor.
+Even after prioritizing consistency and inconsistency counts, multiple rankings may have identical inconsistency scores. To distinguish these, we incorporate a **strength of schedule (SOS)** measure.
 
-To break ties between rankings with identical inconsistency scores, we introduce a comprehensive strength of schedule metric. We consider only consistent games—those where the ranking aligns with the game outcome—because inconsistent games already contribute to our primary inconsistency score. This ensures we don't double-penalize or double-reward results that are already accounted for in the core optimization.
+#### Computing SOS
 
-We compute a strength of schedule metric $\text{SOS}_i$ for competitor $c_i$ using equation $(2)$, where:
+Critically, **We evaluate strength of schedule _only_ using consistent games.** Inconsistent games already affect the objective through inconsistency penalties.
 
--   $W_i$ denotes the set of opponents that $c_i$ has beaten in consistent games ($r_i < r_j$)
+For competitor $c_i$:
 
--   $L_i$ denotes the set of opponents that have beaten $c_i$ in consistent games ($r_i > r_j$)
+-   $W_i$: set of opponents that $c_i$ defeated in **consistent** games.
+-   $L_i$: set of opponents that defeated $c_i$ in **consistent** games.
+
+Define:
+
+-   Quality of wins:
+    $$
+    Q_i^{\text{win}} = \sum_{c_j \in W_i} (n - r_j + 1)^k
+    $$
+-   Severity of losses:
+    $$
+    Q_i^{\text{loss}} = \sum_{c_j \in L_i} (r_j)^k
+    $$
 
 Let:
-
--   $Q_i^{\text{win}} = \sum_{c_j \in W_i} (n - r_j + 1)^k$ (quality of wins)
-
--   $Q_i^{\text{loss}} = \sum_{c_j \in L_i} (r_j)^k$ (severity of losses)
-
-Then:
-
-![eq2](img/eq2.png)
-
-Where:
 
 -   $Q_{\text{max}}^{\text{win}} = \max_{m} Q_m^{\text{win}}$ (maximum quality of wins among all competitors)
 
 -   $Q_{\text{max}}^{\text{loss}} = \max_{m} Q_m^{\text{loss}}$ (maximum severity of losses among all competitors)
 
--   $\epsilon > 0$ is a small constant ensuring this tie-breaker term remains strictly less than 1
+We then define:
 
-Via the parameter $\lambda$, this formulation provides intuitive control over the balance between rewarding quality wins and penalizing bad losses:
+$$
+\text{SOS}_i = \lambda \cdot \frac{Q_i^\text{win}}{Q_\text{max}^\text{win} + \epsilon} - (1 - \lambda) \cdot \frac{Q_i^\text{loss}}{Q_\text{max}^\text{loss} + \epsilon}.
+\tag{3}
+$$
 
--   $\lambda = 0$: Only losses matter ($\text{SOS}_i$ ranges from slightly less than -1 to 0)
+Here:
 
--   $\lambda = 0.5$: Wins and losses are equally weighted ($\text{SOS}_i$ ranges from slightly more than -0.5 to slightly less than 0.5)
+-   $\epsilon > 0$ ensures division remains well*defined \_and* keeps SOS strictly less than $1$ in magnitude, which will preserve consistency dominance.
+-   $\lambda \in [0, 1]$ sets the win/loss weighting.
+-   $k \geq 0$ controls the emphasis on opponent quality.
 
--   $\lambda = 1$: Only wins matter ($\text{SOS}_i$ ranges from 0 to slightly less than 1)
+Parameter interpretations:
 
-The parameter $k \geq 0$ controls the emphasis on opponent quality:
+-   $\lambda = 1$: only wins influence SOS
+-   $\lambda = 0$: only losses influence SOS
+-   $\lambda = 0.5$: balanced wins and losses
+-   $k = 0$: all wins and losses count equally
+-   $k = 1$: linear emphasis on opponent rank
+-   $k > 1$: rewards elite wins heavily and penalizes bad losses harshly
 
--   $k = 0$: No quality differentiation—pure win-loss counting where all wins contribute equally and all losses penalize equally
+SOS behaves intuitively:
 
--   $0 < k < 1$: Diminishing returns—rewards consistency across many games, with less differentiation between elite and good wins
+-   Adding a consistent win always increases $\text{SOS}_i$.
+-   Adding a consistent loss always decreases $\text{SOS}_i$.
 
--   $k = 1$: Linear weighting—balanced emphasis on both quantity and quality
+#### Using SOS as a tie-breaker
 
--   $k > 1$: Increasing returns—heavy emphasis on elite wins and terrible losses, with minimal credit for beating weak opponents
+We incorporate strength of schedule using the term:
 
-For any $k \geq 0$, adding a consistent win always increases $\text{SOS}_i$, and adding a consistent loss always decreases $\text{SOS}_i$, ensuring the metric behaves intuitively.
+$$
+\frac{2}{n(n+1)} \cdot \sum_{i=1}^n(\text{SOS}_i \cdot r_i).
+$$
 
-We then modify our objective function by adding the term:
+Multiplying by $r_i$ ensures:
 
-![eq3](img/eq3.png)
+-   Because the objective is minimized, a higher SOS is preferred when paired with a smaller $r_i$ (a better rank).
+-   This aligns the minimization with the intuitive principle that stronger schedules should correspond to better ranks.
 
-The $\epsilon$ term from $(2)$ ensures $\text{SOS}_i$ is strictly bounded away from the theoretical extremes, guaranteeing the tie-breaker term has magnitude strictly less than 1. Since $\alpha$ is an integer and inconsistency scores are therefore integers, this ensures consistency always takes priority over strength of schedule considerations.
+The scaling factor $\frac{2}{n(n+1)}$ ensures:
 
-This approach maintains our philosophical commitment to consistency while comprehensively evaluating performance quality when rankings are otherwise equally consistent.
+-   This term is strictly less than $1$ in magnitude.
+-   Inconsistency scores—which are integers due to integer $\alpha$—always dominate SOS effects.
+
+Thus, the system remains philosophically consistent: strength of schedule matters _only after_ consistency is maximized.
 
 ### Improved Mathematical Formulation
 
-The improvements outlined above lead us to our final formulation of the optimization problem.
+Combining everything, the final optimization problem is:
 
-Given $n$ competitors $c_1, c_2, ..., c_n$ and a collection of games $G$, we seek to find ranks $r_1, r_2, ..., r_n$ that solve:
+$$
+\min \sum_{(c_i, c_j) \in G} I(r_i, r_j, \alpha) + \frac{2}{n(n+1)} \cdot \sum_{i=1}^n(\text{SOS}_i \cdot r_i)\\
+\text{s.t. } r_i \neq r_j \text{ } \forall \text{ } i \neq j, \\
+r_i \in {1, ..., n} \text{ } \forall \text{ } i.
+\tag{4}
+$$
 
-![eq4](img/eq4.png)
+Where:
 
-Where the strength of schedule metric $\text{SOS}_i$ is defined as:
+-   $I$ is defined in $(2)$
+-   $\text{SOS}_i$ is defined in $(3)$
+-   $W_i = \{c_j : (c_i, c_j) \in G \text{ and } r_i < r_j\}$
+-   $L_i = \{c_j : (c_j, c_i) \in G \text{ and } r_i > r_j\}$
+-   $\alpha \geq 0$ is an integer
+-   $\epsilon > 0, k \geq 0, \lambda \in [0, 1]$
 
-![eq5](img/eq5.png)
+This formulation:
 
-With:
+-   **Minimizes inconsistency magnitude**
+-   **Minimizes number of inconsistencies** (via $\alpha$)
+-   **Breaks remaining ties using strength of schedule**, scaled so that consistency always dominates
 
--   $W_i = \{c_j : (c_i, c_j) \in G \text{ and } r_i < r_j\}$ (consistent wins)
-
--   $L_i = \{c_j : (c_j, c_i) \in G \text{ and } r_i > r_j\}$ (consistent losses)
-
--   $Q_{\text{max}}^{\text{win}} = \max_{m} \sum_{c_j \in W_m} (n - r_j + 1)^k$
-
--   $Q_{\text{max}}^{\text{loss}} = \max_{m} \sum_{c_j \in L_m} (r_j)^k$
-
--   $\alpha \in \mathbb{Z}_{\geq 0}$ controlling the inconsistency count vs magnitude trade-off
-
--   $\epsilon > 0$ ensuring the tie-breaker term magnitude is strictly less than 1
-
--   $k \geq 0$ controlling quality emphasis
-
--   $0 \leq \lambda \leq 1$ controlling wins/losses balance
-
-The first term minimizes ranking inconsistencies, while the second term breaks ties using strength of schedule, with the coefficient $\frac{2}{n(n+1)}$ guaranteeing that consistency always takes priority. The integer requirement for $\alpha$ ensures that inconsistency scores remain integers, preserving the strict dominance of consistency over the real-valued strength of schedule tie-breaker.
+Together, these components produce rankings that are consistent, interpretable, and tunably sensitive to quality of competition.
 
 ## The Computation
 
@@ -156,7 +204,8 @@ Description of how the ranking is actually computed.
 TODO:
 
 -   Make cooling rate a parameter
--   Correct formula with $\alpha$
+-   Make max window search a parameter
+-   Output sliding passes actually used
 
 ## The Repository
 
